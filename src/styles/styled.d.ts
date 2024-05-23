@@ -8,11 +8,13 @@ declare module "styled-components" {
       darkGreenBackground: string;
       lightButton: string;
       lighterBackground: string;
+      lighterBackgroundOpacity: string;
       light: string;
     };
     typography: {
       mainFontFamily: string;
       titleFontFamily: string;
+      superTitleSize: string;
       superSize: string;
       mainSize: string;
       titleSize: string;
