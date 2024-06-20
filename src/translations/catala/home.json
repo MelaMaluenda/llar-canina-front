@@ -7,5 +7,24 @@
     "us": "QUI SOM",
     "services": "SERVEIS",
     "rates": "TARIFES"
+  },
+
+  "services": {
+    "title": "Serveis",
+    "home": "| Guardería |",
+    "textHome": "Sabem que la teva mascota es part de la teva familia i ens comprometem a brindar-li la millor atenció mentre tu siguis fora. Som una guardería canina dedicada a oferir un ambient, segur, divertit i afectuós.",
+    "shop": "| Botiga |",
+    "textShop": "A la nostra botiga podràs trobar premis perruns i una cuidada selecció de collarets per a gossos, tots ells confeccionats a mà amb amor i atenció al detall."
+  },
+
+  "us": {
+    "title": "Qui som",
+    "explanation1": "Som una guardería formada per un equip dedicat al cuidat caní. Des de Llar Canina volem brindar-li al teu pelut un lloc on pugui sentir-se com a casa seva.",
+    "explanation2": "El nostre objectiu és que els peluts tinguin un lloc on sentir-se segurs, on puguin ser ells mateixos, adaptar-nos a cadascuna de les necessitats de cadascú i prioritzar el seu benestar, i sobretot que rebin molt d’amor i diversió. No ens hem equivocat en triar aquesta professió, realment és la nostra passió.",
+    "explanation3": " Estem ubicats al costat del parc del putxet, un parc molt gran on podreu gaudir dels seus passejos. "
+  },
+
+  "visitors": {
+    "title": "Visitants habituals"
   }
 }
