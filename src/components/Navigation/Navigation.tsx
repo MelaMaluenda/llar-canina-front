@@ -10,14 +10,14 @@ const Navigation = (): React.ReactElement => {
       <div className="menu__head logo">
         <img
           className="logo__image"
-          src="/images/logo.webp"
+          src="/images/logo-color.png"
           alt="Logo with a dog"
           width="150"
           height="160"
         />
         <img
           className="logo__text"
-          src="/images/letra-logo1.webp"
+          src="/images/letra-logo3.png"
           alt="Llar canina. Més que un animal de companyia"
           width="300"
           height="75"

@@ -3,11 +3,10 @@ import styled from "styled-components";
 const HeaderStyled = styled.header`
   .head {
     &__banner {
-      background-image: url("/images/putxeto.jpg");
+      background-image: url("/images/SLC-2.jpg");
       background-size: cover;
-      background-position: center;
       position: relative;
-      height: 380px;
+      height: 420px;
     }
 
     &_titular {
@@ -16,7 +15,10 @@ const HeaderStyled = styled.header`
       color: ${({ theme }) => theme.colors.light};
       position: absolute;
       top: 150px;
-      right: 100px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
       z-index: 1;
     }
   }
