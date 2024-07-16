@@ -3,7 +3,7 @@ import Navigation from "../Navigation/Navigation";
 import HeaderStyled from "./HeaderStyled";
 
 const Header = (): React.ReactElement => {
-  const [t] = useTranslation("home");
+  const { t } = useTranslation("translation");
 
   return (
     <HeaderStyled className="head">

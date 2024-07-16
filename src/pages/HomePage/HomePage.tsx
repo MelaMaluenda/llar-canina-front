@@ -5,7 +5,7 @@ import HomeStyled from "./HomeStyled";
 import Visitors from "../../components/Visitors/Visitors";
 
 const HomePage = (): React.ReactElement => {
-  const [t] = useTranslation("home");
+  const { t } = useTranslation("translation");
 
   return (
     <HomeStyled>

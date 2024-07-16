@@ -2,7 +2,7 @@ import ServicesStyled from "./ServicesStyled";
 import { useTranslation } from "react-i18next";
 
 const Services = (): React.ReactElement => {
-  const [t] = useTranslation("home");
+  const { t } = useTranslation("translation");
 
   return (
     <ServicesStyled>
