@@ -11,7 +11,7 @@
 
   "services": {
     "title": "Serveis",
-    "home": "| Guardería |",
+    "translation": "| Guardería |",
     "textHome": "Sabem que la teva mascota es part de la teva familia i ens comprometem a brindar-li la millor atenció mentre tu siguis fora. Som una guardería canina dedicada a oferir un ambient, segur, divertit i afectuós.",
     "shop": "| Botiga |",
     "textShop": "A la nostra botiga podràs trobar premis perruns i una cuidada selecció de collarets per a gossos, tots ells confeccionats a mà amb amor i atenció al detall."

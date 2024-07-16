@@ -5,14 +5,15 @@ const NavigationStyled = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   height: 80px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   z-index: 2;
-  border-bottom: solid 3px ${({ theme }) => theme.colors.light};
-  background-color: ${({ theme }) => theme.colors.darkGreenBackground};
+  border-bottom: solid 3px ${({ theme }) => theme.colors.lighterBackground};
+  background-color: ${({ theme }) => theme.colors.light};
 
   .menu {
     &__head {
@@ -38,7 +39,7 @@ const NavigationStyled = styled.div`
         text-transform: uppercase;
         font-family: ${({ theme }) => theme.typography.titleFontFamily};
         font-size: ${({ theme }) => theme.typography.secondaryTitleSize};
-        color: ${({ theme }) => theme.colors.light};
+        color: ${({ theme }) => theme.colors.darkGreenBackground};
         letter-spacing: 2px;
       }
 
@@ -48,8 +49,8 @@ const NavigationStyled = styled.div`
         padding: 0.5rem 1.5rem;
         transition: all 0.6s linear;
         border-radius: 5px;
-        background-color: ${({ theme }) => theme.colors.light};
-        color: ${({ theme }) => theme.colors.darkGreenBackground};
+        background-color: ${({ theme }) => theme.colors.lighterBackground};
+        color: ${({ theme }) => theme.colors.light};
       }
     }
 
@@ -58,21 +59,21 @@ const NavigationStyled = styled.div`
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       gap: 5px;
 
-      &--esp,
-      &--cat {
+      &--i {
         font-weight: 500;
         width: 50px;
         height: 30px;
-        background-color: ${({ theme }) => theme.colors.lighterBackground};
+        border: 1px solid ${({ theme }) => theme.colors.lighterBackground};
+        background-color: ${({ theme }) => theme.colors.light};
       }
 
-      &--esp:hover,
-      &--cat:hover {
+      &--i:hover {
         font-weight: 800;
-        background-color: ${({ theme }) => theme.colors.light};
-        color: ${({ theme }) => theme.colors.mainText};
+        background-color: ${({ theme }) => theme.colors.lighterBackground};
+        color: ${({ theme }) => theme.colors.light};
       }
     }
   }

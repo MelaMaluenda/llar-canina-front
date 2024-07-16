@@ -11,7 +11,7 @@
 
   "services": {
     "title": "Servicios",
-    "home": "| Guarderia |",
+    "translation": "| Guarderia |",
     "textHome": "Sabemos que tu mascota es parte de tu familia y nos comprometemos a brindarle el mejor cuidado mientras estás fuera. Somos una guardería canina dedicada a ofrecer un ambiente seguro, divertido y cariñoso.",
     "shop": "| Tienda |",
     "textShop": "En nuestra tienda podrás encontrar premios perrunos y una cuidada selección de collares para perros, todos ellos confeccionados a mano con amor y atención al detalle."

@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import UsStyled from "./UsStyled";
 
 const Us = (): React.ReactElement => {
-  const [t] = useTranslation("home");
+  const { t } = useTranslation("translation");
 
   return (
     <UsStyled>
