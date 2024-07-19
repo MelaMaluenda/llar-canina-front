@@ -2,25 +2,69 @@ import styled from "styled-components";
 
 const HomeStyled = styled.main`
   .title {
-    padding-top: 10px;
+    padding: 25px 0 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 
     &__footprint {
-      width: 40px;
-      height: 33px;
+      width: 25px;
+      height: 18px;
     }
 
     &__label {
-      padding: 15px;
-      margin: 10px;
       text-transform: uppercase;
       color: ${({ theme }) => theme.colors.darkBlueBackground};
-      font-size: ${({ theme }) => theme.typography.superTitleSize};
+      font-size: 18px;
       font-weight: 400;
       text-align: center;
+    }
+  }
+
+  @media (min-width: 480px) {
+    .title {
+      &__footprint {
+        width: 40px;
+        height: 33px;
+      }
+
+      &__label {
+        font-size: 24px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .title {
+      &__footprint {
+      }
+
+      &__label {
+        font-size: 32px;
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .title {
+      &__footprint {
+      }
+
+      &__label {
+        font-size: 36px;
+      }
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .title {
+      &__footprint {
+      }
+
+      &__label {
+        font-size: 40px;
+      }
     }
   }
 `;
