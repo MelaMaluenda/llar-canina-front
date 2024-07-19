@@ -14,7 +14,7 @@ const Services = (): React.ReactElement => {
           width="329"
           height="290"
         />
-        <h2 className="card__title">{t("services.home")}</h2>
+        <h2 className="card__title">{t("services.translation")}</h2>
         <p className="card__text">{t("services.textHome")}</p>
       </article>
       <article className="card">
