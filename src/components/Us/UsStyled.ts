@@ -208,7 +208,7 @@ const UsStyled = styled.section`
 
   @media (min-width: 1024px) {
     .us {
-      padding: 0 15px;
+      padding: 15px;
 
       &__presentation {
         width: 210px;
