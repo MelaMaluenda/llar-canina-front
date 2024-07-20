@@ -8,7 +8,10 @@ const Header = (): React.ReactElement => {
   return (
     <HeaderStyled className="head">
       <Navigation />
-      <h2 className="head__titular">{t("header.title")}</h2>
+      <div className="head__titular">
+        <h2 className="head__titular--1">{t("header.title1")}</h2>
+        <h3 className="head__titular--2">{t("header.title2")}</h3>
+      </div>
       <div className="head__banner" />
     </HeaderStyled>
   );
