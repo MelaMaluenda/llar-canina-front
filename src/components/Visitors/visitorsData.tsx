@@ -31,4 +31,20 @@ export const visitorsData = [
     id: 8,
     imgUrl: "images/visitor8.jpeg",
   },
+  {
+    id: 9,
+    imgUrl: "images/visitors9.jpeg",
+  },
+  {
+    id: 10,
+    imgUrl: "images/visitors10.jpeg",
+  },
+  {
+    id: 11,
+    imgUrl: "images/visitor11.jpeg",
+  },
+  {
+    id: 12,
+    imgUrl: "images/visitors12.jpeg",
+  },
 ];
