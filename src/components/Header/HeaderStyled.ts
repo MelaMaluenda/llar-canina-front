@@ -10,11 +10,6 @@ const HeaderStyled = styled.header`
     }
 
     &__titular {
-      font-family: ${({ theme }) => theme.typography.mainFontFamily};
-      font-size: 16px;
-      width: 80%;
-      color: ${({ theme }) => theme.colors.light};
-      position: absolute;
       top: 95px;
       left: 0;
       right: 0;
@@ -22,6 +17,16 @@ const HeaderStyled = styled.header`
       margin: auto;
       z-index: 1;
       text-align: center;
+      width: 90%;
+      position: absolute;
+
+      &--1,
+      &--2 {
+        font-size: 15px;
+        padding: 1px;
+        color: ${({ theme }) => theme.colors.light};
+        font-family: ${({ theme }) => theme.typography.mainFontFamily};
+      }
     }
   }
 
@@ -31,9 +36,14 @@ const HeaderStyled = styled.header`
         height: 220px;
       }
       &__titular {
-        font-size: 20px;
         top: 110px;
-        letter-spacing: 1.5px;
+        width: 85%;
+
+        &--1,
+        &--2 {
+          font-size: 20px;
+          letter-spacing: 1.5px;
+        }
       }
     }
   }
@@ -44,8 +54,13 @@ const HeaderStyled = styled.header`
         height: 350px;
       }
       &__titular {
-        font-size: 26px;
-        top: 110px;
+        top: 100px;
+
+        &--1,
+        &--2 {
+          font-size: 26px;
+          padding: 2px;
+        }
       }
     }
   }
@@ -56,9 +71,13 @@ const HeaderStyled = styled.header`
         height: 400px;
       }
       &__titular {
-        font-size: 30px;
-        top: 120px;
+        top: 110px;
         width: 60%;
+
+        &--1,
+        &--2 {
+          font-size: 30px;
+        }
       }
     }
   }
@@ -69,8 +88,14 @@ const HeaderStyled = styled.header`
         height: 420px;
       }
       &__titular {
-        font-size: 32px;
-        width: 50%;
+        top: 130px;
+        width: 60%;
+
+        &--1,
+        &--2 {
+          font-size: 32px;
+          padding: 3px;
+        }
       }
     }
   }

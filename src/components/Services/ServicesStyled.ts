@@ -22,7 +22,7 @@ const ServicesStyled = styled.section`
 
     &__icon {
       width: 140px;
-      height: 110px;
+      height: 115px;
     }
 
     &__title {
@@ -84,12 +84,13 @@ const ServicesStyled = styled.section`
       &__text {
         margin-top: 15px;
         font-size: 17px;
+        text-align: justify;
       }
     }
   }
 
   @media (min-width: 1024px) {
-    gap: 45px;
+    gap: 55px;
     .card {
       height: 500px;
       max-width: 450px;
@@ -106,6 +107,13 @@ const ServicesStyled = styled.section`
       &__text {
         font-size: 20px;
       }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    gap: 65px;
+    .card {
+      max-width: 500px;
     }
   }
 
