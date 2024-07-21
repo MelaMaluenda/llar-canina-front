@@ -15,7 +15,7 @@
     "translation": "| Guarderia |",
     "textHome": "Sabemos que tu mascota es parte de tu familia y nos comprometemos a brindarle el mejor cuidado mientras estás fuera. Somos una guardería canina dedicada a ofrecer un ambiente seguro, divertido y cariñoso.",
     "shop": "| Tienda |",
-    "textShop": "En nuestra tienda podrás encontrar premios perrunos y una cuidada selección de collares para perros, todos ellos confeccionados a mano con amor y atención al detalle."
+    "textShop": "En nuestra tienda podrás encontrar tanto como premios y juguetes por tus peludos. También disponemos de una cuidada selección de accesorios como serían collares, correas y arneses, todos ellos confeccionados a mano, con amor y atención al detalle"
   },
 
   "us": {
@@ -27,5 +27,15 @@
 
   "visitors": {
     "title": "Visitantes habituales"
+  },
+
+  "reviews": {
+    "title": "Reseñas",
+    "person1": "Gabi & Max",
+    "review1": "Hace años que conozco a Leo y siempre ha demostrado un gran amor por los animales. Su nueva guardería canina es el reflejo perfecto de su pasión y dedicación. Leo es confiable y amable, y su guardería es el lugar ideal para dejar a tu perro. Recomiendo encarecidamente su servicio.",
+    "person2": "Vero & Lira",
+    "review2": "Conocí a Leo recientemente cuando mi perra Lila se unió a una de sus excursiones caninas. Fue una experiencia maravillosa. Leo y su hija cuidaron y llevaron a Lila en la excursión con gran atención y amor. Recomiendo a Leo y su guardería canina para un cuidado excepcional de mascotas.",
+    "person3": "Nami & Mowy",
+    "review3": "Conozco a Leo a través de su hija Elena, una vez les llevé a mi perrito Mowy y la verdad que estuve encantada, a parte de la tranquilidad con la que me fui sabiendo que lo estaba dejando en buenas manos. No dudaria en volver a dejarlo con ellos."
   }
 }
