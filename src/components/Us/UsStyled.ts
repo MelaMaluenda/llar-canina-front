@@ -163,7 +163,7 @@ const UsStyled = styled.section`
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
-    padding: 15px;
+    padding: 25px 15px;
 
     .us {
       padding: 0;
@@ -207,6 +207,7 @@ const UsStyled = styled.section`
   }
 
   @media (min-width: 1024px) {
+    padding: 30px 15px;
     .us {
       padding: 15px;
 
