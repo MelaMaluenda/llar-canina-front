@@ -37,5 +37,14 @@
     "review2": "Conocí a Leo recientemente cuando mi perra Lila se unió a una de sus excursiones caninas. Fue una experiencia maravillosa. Leo y su hija cuidaron y llevaron a Lila en la excursión con gran atención y amor. Recomiendo a Leo y su guardería canina para un cuidado excepcional de mascotas.",
     "person3": "Nami & Mowy",
     "review3": "Conozco a Leo a través de su hija Elena, una vez les llevé a mi perrito Mowy y la verdad que estuve encantada, a parte de la tranquilidad con la que me fui sabiendo que lo estaba dejando en buenas manos. No dudaria en volver a dejarlo con ellos."
+  },
+
+  "location": {
+    "title": "¡Ven a visitarnos!",
+    "gps": "Calle de Homero 42, Barcelona",
+    "clock1": "LU a VI de 7:00 - 20:00h,",
+    "clock2": "SA, DO y festivos de 9:00 - 20:00h.",
+    "email": "info@llarcanina.cat",
+    "phone": "+34 - 679 372 372 "
   }
 }
