@@ -11,6 +11,11 @@ const HomeStyled = styled.main`
     &__footprint {
       width: 25px;
       height: 18px;
+
+      &--stars {
+        width: 160px;
+        height: 25px;
+      }
     }
 
     &__label {
@@ -20,6 +25,12 @@ const HomeStyled = styled.main`
       font-weight: 400;
       text-align: center;
     }
+
+    &--stars {
+      flex-direction: column;
+      padding: 0 0 15px 0;
+      gap: 5px;
+    }
   }
 
   @media (min-width: 480px) {
@@ -27,8 +38,12 @@ const HomeStyled = styled.main`
       &__footprint {
         width: 40px;
         height: 33px;
-      }
 
+        &--stars {
+          width: 180px;
+          height: 33px;
+        }
+      }
       &__label {
         font-size: 24px;
       }
@@ -49,10 +64,17 @@ const HomeStyled = styled.main`
   @media (min-width: 1024px) {
     .title {
       &__footprint {
+        &--stars {
+          width: 220px;
+          height: 40px;
+        }
       }
 
       &__label {
         font-size: 36px;
+      }
+      &--stars {
+        gap: 10px;
       }
     }
   }

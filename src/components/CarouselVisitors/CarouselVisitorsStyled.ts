@@ -1,24 +1,28 @@
 import { Paper } from "@mui/material";
 import styled from "styled-components";
 
-export const StyledPaper = styled(Paper)`
+export const CarouselVisitorsStyled = styled(Paper)`
+  max-width: 1200px;
+  margin: auto;
   text-align: center;
-  padding: 20px;
+
   img {
     width: 100%;
     height: 434px;
     object-fit: cover;
     border-radius: 60px;
   }
+
+  box-shadow: none;
 `;
 
 export const StyledItemGroup = styled.div`
   display: flex;
-  justify-content: space-between;
-
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-  }
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px 10px 25px;
+  padding: 20px 20px 40px 20px;
+  gap: 20px;
 
   > div {
     flex: 1;
@@ -27,7 +31,7 @@ export const StyledItemGroup = styled.div`
     @media (max-width: 480px) {
       flex: 0 0 100%;
       img {
-        width: 75%;
+        width: 90%;
         height: 350px;
       }
     }
@@ -35,15 +39,16 @@ export const StyledItemGroup = styled.div`
     @media (min-width: 481px) and (max-width: 768px) {
       flex: 0 0 calc(50% - 10px);
       img {
-        width: 90%;
+        width: 95%;
         height: 350px;
       }
     }
 
     @media (min-width: 769px) and (max-width: 1024px) {
-      flex: 0 0 calc(25% - 10px);
+      flex: 0 0 calc(33.33% - 10px);
+
       img {
-        width: 100%;
+        width: 95%;
         height: 350px;
       }
     }
@@ -51,8 +56,8 @@ export const StyledItemGroup = styled.div`
     @media (min-width: 1025px) {
       flex: 0 0 calc(25% - 10px);
       img {
-        width: 100%;
-        height: 350px;
+        width: 95%;
+        height: 425px;
       }
     }
   }

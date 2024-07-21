@@ -1,4 +1,4 @@
-export const visitorsData = [
+export const CarouselVisitorsData = [
   {
     id: 1,
     imgUrl: "images/visitor1.jpeg",
