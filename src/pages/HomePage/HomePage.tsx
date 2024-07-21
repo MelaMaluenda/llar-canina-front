@@ -6,6 +6,7 @@ import CarouselVisitors from "../../components/CarouselVisitors/CarouselVisitors
 import { CarouselVisitorsData } from "../../components/CarouselVisitors/CarouselVisitorsData";
 import CarouselReviews from "../../components/CarouselReviews/CarouselReviews";
 import CarouselReviewsData from "../../components/CarouselReviews/CarouselReviewsData";
+import Location from "../../components/Location /Location";
 
 const HomePage = (): React.ReactElement => {
   const { t } = useTranslation("translation");
@@ -46,7 +47,7 @@ const HomePage = (): React.ReactElement => {
         />
       </div>
       <CarouselReviews reviews={CarouselReviewsData} />
-      <h2 className="title__label"> {t("visitors.title")} </h2>
+      <Location />
     </HomeStyled>
   );
 };
