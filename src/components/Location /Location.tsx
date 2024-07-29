@@ -67,11 +67,11 @@ const Location = (): React.ReactElement => {
       </article>
       <article className="gps">
         <img
-          className=""
+          className="gps__map"
           src="/images/randommap.png"
           alt="Map"
-          width="312"
-          height="157"
+          width="949"
+          height="439"
         />
       </article>
     </LocationStyled>
