@@ -22,8 +22,15 @@ const LocationStyled = styled.section`
     color: ${({ theme }) => theme.colors.light};
   }
   .gps {
-    width: 100%;
+    width: 55%;
     background-color: ${({ theme }) => theme.colors.lighterBackgroundOpacity};
+
+    &__map {
+      width: 100vw;
+      height: 250px;
+      object-fit: cover;
+      align-content: center;
+    }
   }
 
   .data {
@@ -57,6 +64,12 @@ const LocationStyled = styled.section`
   }
 
   @media (min-width: 480px) {
+    .gps {
+      &__map {
+        height: 250px;
+      }
+    }
+
     .title {
       &__label {
       }
@@ -87,12 +100,25 @@ const LocationStyled = styled.section`
 
   @media (min-width: 768px) {
     flex-direction: row;
+    .gps {
+      &__map {
+        width: 50vw;
+        height: 360px;
+      }
+    }
 
     .data {
     }
   }
 
   @media (min-width: 1024px) {
+    .gps {
+      &__map {
+        width: 60vw;
+        height: 400px;
+      }
+    }
+
     .title {
       &__label {
       }

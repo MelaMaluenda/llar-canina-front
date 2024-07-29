@@ -27,9 +27,9 @@ const NavigationStyled = styled.div`
       align-items: center;
       gap: 10px;
 
-      &--us,
       &--services,
-      &--rates {
+      &--rates,
+      &--contact {
         font-weight: 400;
         text-transform: uppercase;
         font-family: ${({ theme }) => theme.typography.titleFontFamily};
@@ -137,9 +137,9 @@ const NavigationStyled = styled.div`
         gap: 20px;
         padding: 10px;
 
-        &--us,
         &--services,
-        &--rates {
+        &--rates,
+        &--contact {
           font-size: 17px;
           letter-spacing: 1.5px;
         }
@@ -201,16 +201,16 @@ const NavigationStyled = styled.div`
         flex-direction: row;
         gap: 15px;
 
-        &--us,
         &--services,
-        &--rates {
+        &--rates,
+        &--contact {
           font-size: 16px;
           letter-spacing: 2px;
         }
 
-        &--us:hover,
         &--services:hover,
-        &--rates:hover {
+        &--rates:hover,
+        &--contact:hover {
           padding: 0.5rem 1.5rem;
           transition: all 0.6s linear;
           border-radius: 5px;
@@ -267,14 +267,10 @@ const NavigationStyled = styled.div`
       &__nav {
         gap: 60px;
 
-        &--us,
         &--services,
-        &--rates {
+        &--rates,
+        &--contact {
           font-size: 18px;
-        }
-        &--us:hover,
-        &--services:hover,
-        &--rates:hover {
         }
       }
 
@@ -317,14 +313,6 @@ const NavigationStyled = styled.div`
       }
 
       &__nav {
-        &--us,
-        &--services,
-        &--rate {
-          &--us:hover,
-          &--services:hover,
-          &--rates:hover {
-          }
-        }
       }
 
       &__languages {

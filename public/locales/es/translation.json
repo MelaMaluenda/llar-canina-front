@@ -5,9 +5,9 @@
   },
 
   "navigation": {
-    "us": "QUIENES SOMOS",
     "services": "SERVICIOS",
-    "rates": "TARIFAS"
+    "rates": "TARIFAS",
+    "contact": "CONTACTO"
   },
 
   "services": {

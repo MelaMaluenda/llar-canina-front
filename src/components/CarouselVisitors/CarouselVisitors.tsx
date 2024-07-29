@@ -44,7 +44,7 @@ const CarouselVisitors: React.FC<CarouselComponentProps> = ({ items }) => {
     <Carousel
       navButtonsAlwaysVisible
       autoPlay={true}
-      animation="fade"
+      animation="false"
       interval={5000}
       navButtonsProps={{
         style: {
