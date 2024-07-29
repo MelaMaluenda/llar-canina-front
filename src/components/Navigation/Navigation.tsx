@@ -45,11 +45,6 @@ const Navigation = (): React.ReactElement => {
       </div>
       <div className={`menu__content ${isOpen ? "menu__content--open" : ""}`}>
         <ul className="menu__nav">
-          <li className="menu__nav--us">
-            <NavLink aria-label="us" to="">
-              {t("navigation.us")}
-            </NavLink>
-          </li>
           <li className="menu__nav--services">
             <NavLink aria-label="services" to="">
               {t("navigation.services")}
@@ -58,6 +53,11 @@ const Navigation = (): React.ReactElement => {
           <li className="menu__nav--rates">
             <NavLink aria-label="rates" to="">
               {t("navigation.rates")}
+            </NavLink>
+          </li>
+          <li className="menu__nav--contact">
+            <NavLink aria-label="contact" to="">
+              {t("navigation.contact")}
             </NavLink>
           </li>
         </ul>
