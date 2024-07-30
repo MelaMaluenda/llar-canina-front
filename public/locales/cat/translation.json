@@ -46,5 +46,26 @@
     "clock2": "ds, dg i festius de 9:00 - 20:00h.",
     "email": "info@llarcanina.cat",
     "phone": "+34 - 679 372 372 "
+  },
+
+  "work": {
+    "section1-title1": "Com treballem?",
+    "section1-p1": "Disposem d'una sala de joc on els gossos podran córrer, divertir-se i participar en diverses activitats. Oferim activitats de socialització, olfacte i una mica d'ensinistrament bàsic per assegurar que cada gos tingui una experiència enriquidora.",
+    "section1-p2": "En aquesta mateixa sala, ubicada a la primera planta, hem equipat diverses activitats d'agility, proporcionant un espai ideal perquè els gossos que vulguin jugar i exercitar-se ho puguin fer.",
+    "section1-p3": "A més, en una zona separada, disposem de diversos llits confortables per a aquells gossos que prefereixin descansar o tinguin necessitats especials.",
+    "section1-p4": "Sempre ens assegurem de prioritzar el benestar i les necessitats de cada gos.",
+    "section2-title2": "Guarderia per a gossos",
+    "section2-highlight1": "Sala de jocs Agility",
+    "section2-highlight2": "Activitats de socialització i olfacte",
+    "section2-highlight3": "Ensinistrament bàsic",
+    "section2-highlight4": "Zona de descans"
+  },
+
+  "shop": {
+    "title1": "El nostre producte estrella",
+    "section1-p1": "Descobreix els nostres exclusius accessoris canins, dissenyats i fabricats a mà amb pell natural de la més alta qualitat. Oferim una varietat de collarets, arnesos i corretges, cadascun fusionant estil i funcionalitat per assegurar que la teva mascota es vegi i se senti genial.",
+    "section1-p2": "Tenim una àmplia gamma de decoracions, mides i colors, permetent triar el que més t'agradi i s'adapti a les teves necessitats. Les nostres creacions no només reflecteixen qualitat i comoditat, sinó també l'amor i la dedicació amb què van ser fets, acompanyant els teus adorats companys a cada pas de les seves aventures.",
+    "title2": "Botiga presencial",
+    "section2-p": "A la nostra botiga presencial, trobaràs una varietat de joguines perquè el teu pelut es diverteixi, així com diferents tipus de snacks i premis. També disposem d'accessoris per a passejades i la llar, com bols, ampolles d'aigua, morrions i collarets antiparasitaris. Tot allò essencial per a les aventures i el benestar de la teva mascota."
   }
 }

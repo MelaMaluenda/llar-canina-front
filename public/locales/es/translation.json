@@ -46,5 +46,26 @@
     "clock2": "SA, DO y festivos de 9:00 - 20:00h.",
     "email": "info@llarcanina.cat",
     "phone": "+34 - 679 372 372 "
+  },
+
+  "work": {
+    "section1-title1": "¿Cómo trabajamos?",
+    "section1-p1": "Disponemos de una sala de juego donde los perros podrán correr, divertirse y participar en diversas actividades. Ofrecemos actividades de socialización, olfateo y un poco de adiestramiento básico para asegurar que cada perro tenga una experiencia enriquecedora.",
+    "section1-p2": "En esta misma sala, ubicada en la primera planta, hemos equipado varias actividades de agility, proporcionando un espacio ideal para que los perros que deseen jugar y ejercitarse puedan hacerlo.",
+    "section1-p3": "Además, en una zona separada, disponemos de varias camas confortables para aquellos perros que prefieran descansar o tengan necesidades especiales.",
+    "section1-p4": "Siempre nos aseguramos de priorizar el bienestar y las necesidades de cada perro.",
+    "section2-title2": "Guarderia Canina",
+    "section2-highlight1": "Sala de juegos Agility",
+    "section2-highlight2": "Actividades de socialización y olfateo",
+    "section2-highlight3": "Adiestramiento básico",
+    "section2-highlight4": "Zona de descanso"
+  },
+
+  "shop": {
+    "title1": "Nuestro producto estrella",
+    "section1-p1": "Descubre nuestros exclusivos accesorios caninos, cuidadosamente diseñados y fabricados a mano con piel natural de la más alta calidad. Ofrecemos una variedad de collares, arneses y correas, cada uno fusionando estilo y funcionalidad para asegurar que tu mascota se vea y se sienta genial.",
+    "section1-p2": "Tenemos una amplia gama de decoraciones, tamaños y colores, permitiéndote elegir el que más te guste y se adapte a tus necesidades. Nuestras creaciones no solo reflejan calidad y comodidad, sino también el amor y la dedicación con que fueron hechos, acompañando a tus adorados compañeros en cada paso de sus aventuras.",
+    "title2": "Tienda presencial",
+    "section2-p": "En nuestra tienda presencial, encontrarás una variedad de juguetes para que tu peludo se divierta, así como diferentes tipos de snacks y premios. También disponemos de accesorios para paseos y el hogar, como cuencos, botellas de agua, bozales y collares antiparasitarios. Todo lo esencial para las aventuras y el bienestar de tu mascota."
   }
 }
