@@ -10,23 +10,22 @@ const Footer = () => {
       <div className="footer">
         <ul className="footer__menu">
           <li className="footer__menu-item">
-            <NavLink aria-label="services" to="">
+            <NavLink aria-label="services" to="/services">
               {t("navigation.services")}
             </NavLink>
           </li>
           <li className="footer__menu-item">
-            <NavLink aria-label="rates" to="">
+            <NavLink aria-label="rates" to="/rates">
               {t("navigation.rates")}
             </NavLink>
           </li>
           <li className="footer__menu-item">
-            <NavLink aria-label="contact" to="">
+            <NavLink aria-label="contact" to="/contact">
               {t("navigation.contact")}
             </NavLink>
           </li>
         </ul>
         <ul className="footer__author">
-          <li className="footer__author--title">&copy; Llar Canina 2024</li>
           <li>
             <a href="https://www.instagram.com/llarcanina" target="_blank">
               <img
@@ -49,6 +48,7 @@ const Footer = () => {
               />
             </a>
           </li>
+          <li className="footer__author--title">&copy; Llar Canina 2024</li>
         </ul>
       </div>
     </FooterStyled>
