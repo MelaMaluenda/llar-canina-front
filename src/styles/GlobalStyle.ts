@@ -11,9 +11,13 @@ html {
   font-family: ${({ theme }) => theme.typography.mainFontFamily}
 }
 
-body, h1, h2, h3, h4, p  {
+body, h1, h2, h3, h4 {
   margin: 0;
   text-align: center;
+}
+
+p {
+  margin: 0;
 }
 
 ul, ol, 
@@ -37,7 +41,7 @@ input {
   border-radius: 5px;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4{
   color: ${({ theme }) => theme.colors.mainText};
   font-family: ${({ theme }) => theme.typography.titleFontFamily};
 }

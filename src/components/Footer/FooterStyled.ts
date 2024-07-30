@@ -4,7 +4,6 @@ const FooterStyled = styled.footer`
   background-color: ${({ theme }) => theme.colors.lighterBackground};
   text-align: center;
   bottom: 0;
-  margin-top: 20px;
   padding: 5px;
   width: 100%;
 
@@ -68,6 +67,7 @@ const FooterStyled = styled.footer`
 
   @media (min-width: 768px) {
     .footer {
+      gap: 120px;
       display: flex;
       flex-direction: row-reverse;
       align-items: center;
@@ -92,14 +92,17 @@ const FooterStyled = styled.footer`
   }
 
   @media (min-width: 1024px) {
-    .footer__menu {
-      justify-content: space-around;
-      font-size: 18px;
-      gap: 100px;
+    .footer {
+      gap: 160px;
+      &__menu {
+        justify-content: space-around;
+        font-size: 18px;
+        gap: 100px;
 
-      &__author {
-        &--title {
-          margin: 0px;
+        &__author {
+          &--title {
+            margin: 0px;
+          }
         }
       }
     }

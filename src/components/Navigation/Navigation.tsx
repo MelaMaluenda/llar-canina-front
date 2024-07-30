@@ -1,5 +1,5 @@
 import NavigationStyled from "./NavigationStyled";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 
@@ -23,22 +23,24 @@ const Navigation = (): React.ReactElement => {
   return (
     <NavigationStyled className="menu">
       <div className="menu__head logo">
-        <div className="logo__container">
-          <img
-            className="logo__image"
-            src="/images/logo.webp"
-            alt="Logo with a dog"
-            width="50"
-            height="60"
-          />
-          <img
-            className="logo__text"
-            src="/images/letra-logo1.webp"
-            alt="Llar canina. Més que un animal de companyia"
-            width="200"
-            height="50"
-          />
-        </div>
+        <Link aria-label="home" to="/home">
+          <div className="logo__container">
+            <img
+              className="logo__image"
+              src="/images/logo.webp"
+              alt="Logo with a dog"
+              width="50"
+              height="60"
+            />
+            <img
+              className="logo__text"
+              src="/images/letra-logo1.webp"
+              alt="Llar canina. Més que un animal de companyia"
+              width="200"
+              height="50"
+            />
+          </div>
+        </Link>
         <button className="menu__toggle" onClick={toggleMenu}>
           ☰
         </button>
@@ -46,17 +48,17 @@ const Navigation = (): React.ReactElement => {
       <div className={`menu__content ${isOpen ? "menu__content--open" : ""}`}>
         <ul className="menu__nav">
           <li className="menu__nav--services">
-            <NavLink aria-label="services" to="">
+            <NavLink aria-label="services" to="/services">
               {t("navigation.services")}
             </NavLink>
           </li>
           <li className="menu__nav--rates">
-            <NavLink aria-label="rates" to="">
+            <NavLink aria-label="rates" to="/rates">
               {t("navigation.rates")}
             </NavLink>
           </li>
           <li className="menu__nav--contact">
-            <NavLink aria-label="contact" to="">
+            <NavLink aria-label="contact" to="/contact">
               {t("navigation.contact")}
             </NavLink>
           </li>
