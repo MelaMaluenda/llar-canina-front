@@ -10,8 +10,10 @@ const WorkStyled = styled.section`
   .icon {
     margin-bottom: 20px;
     &__image {
-      max-width: 40%;
+      width: 40%;
+      max-width: 150px;
       height: auto;
+      transition: width 0.3s ease;
     }
   }
 
@@ -72,7 +74,8 @@ const WorkStyled = styled.section`
   @media (min-width: 480px) {
     .icon {
       &__image {
-        max-width: 30%;
+        width: 30%;
+        max-width: 200px;
       }
     }
 
@@ -98,7 +101,8 @@ const WorkStyled = styled.section`
 
     .icon {
       &__image {
-        max-width: 25%;
+        width: 22%;
+        max-width: 250px;
       }
     }
 
@@ -137,7 +141,8 @@ const WorkStyled = styled.section`
 
     .icon {
       &__image {
-        max-width: 20%;
+        width: 20%;
+        max-width: 300px;
       }
     }
     .work {
@@ -176,7 +181,8 @@ const WorkStyled = styled.section`
 
     .icon {
       &__image {
-        max-width: 15%;
+        width: 20%;
+        max-width: 350px;
       }
     }
 

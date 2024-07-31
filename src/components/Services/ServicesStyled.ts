@@ -21,8 +21,10 @@ const ServicesStyled = styled.section`
       rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
     &__icon {
-      width: 140px;
-      height: 115px;
+      width: 40%;
+      max-width: 150px;
+      height: auto;
+      transition: width 0.3s ease;
     }
 
     &__title {
@@ -52,8 +54,8 @@ const ServicesStyled = styled.section`
       border-radius: 30px;
 
       &__icon {
-        width: 180px;
-        height: 150px;
+        width: 35%;
+        max-width: 200px;
       }
 
       &__title {
@@ -76,6 +78,8 @@ const ServicesStyled = styled.section`
       height: 450px;
 
       &__icon {
+        width: 45%;
+        max-width: 250px;
       }
 
       &__title {
@@ -96,8 +100,8 @@ const ServicesStyled = styled.section`
       max-width: 450px;
 
       &__icon {
-        width: 220px;
-        height: 190px;
+        width: 40%;
+        max-width: 300px;
       }
 
       &__title {
@@ -123,6 +127,8 @@ const ServicesStyled = styled.section`
       height: 500px;
       max-width: 600px;
       &__icon {
+        width: 35%;
+        max-width: 350px;
       }
 
       &__title {

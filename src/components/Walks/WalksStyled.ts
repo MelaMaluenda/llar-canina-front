@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-const ShopStyled = styled.section`
+const WalksStyled = styled.section`
   padding: 20px;
   font-family: ${({ theme }) => theme.typography.mainFontFamily};
   font-size: 16px;
   text-align: center;
-  border-bottom: dotted 2px ${({ theme }) => theme.colors.lighterBackground};
 
   .icon {
     margin-bottom: 20px;
@@ -17,7 +16,7 @@ const ShopStyled = styled.section`
     }
   }
 
-  .shop {
+  .walks {
     display: flex;
     flex-direction: column;
 
@@ -62,7 +61,7 @@ const ShopStyled = styled.section`
       }
     }
 
-    .shop {
+    .walks {
       &__container {
         &--image {
           width: 100%;
@@ -84,8 +83,7 @@ const ShopStyled = styled.section`
   }
 
   @media (min-width: 768px) {
-    padding: 40px;
-
+    padding: 40px 40px 30px 40px;
     .icon {
       &__image {
         width: 22%;
@@ -93,10 +91,10 @@ const ShopStyled = styled.section`
       }
     }
 
-    .shop {
-      flex-direction: row;
+    .walks {
+      flex-direction: row-reverse;
       align-items: flex-start;
-      gap: 25px;
+      gap: 30px;
 
       &__container {
         flex: 1;
@@ -113,7 +111,7 @@ const ShopStyled = styled.section`
 
       &__explanation {
         flex: 2;
-        width: 100%;
+        width: 80%;
         margin: 0;
 
         &--title {
@@ -137,9 +135,8 @@ const ShopStyled = styled.section`
       }
     }
 
-    .shop {
+    .walks {
       gap: 30px;
-
       &__container {
         &--image {
           max-width: 90%;
@@ -169,7 +166,7 @@ const ShopStyled = styled.section`
       }
     }
 
-    .shop {
+    .walks {
       &__container {
         &--image {
         }
@@ -177,7 +174,6 @@ const ShopStyled = styled.section`
 
       &__explanation {
         width: 60%;
-
         &--title {
         }
 
@@ -189,4 +185,4 @@ const ShopStyled = styled.section`
   }
 `;
 
-export default ShopStyled;
+export default WalksStyled;
