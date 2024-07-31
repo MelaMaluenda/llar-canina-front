@@ -36,7 +36,7 @@ const CarouselReviews: React.FC<CarouselReviewsProps> = ({ reviews }) => {
       navButtonsAlwaysVisible
       autoPlay={false}
       animation="fade"
-      interval={5000}
+      interval={10000}
       navButtonsProps={{
         style: {
           backgroundColor: "#D6D58E",

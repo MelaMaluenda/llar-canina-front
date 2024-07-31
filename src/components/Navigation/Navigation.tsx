@@ -20,6 +20,10 @@ const Navigation = (): React.ReactElement => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <NavigationStyled className="menu">
       <div className="menu__head logo">
@@ -48,17 +52,17 @@ const Navigation = (): React.ReactElement => {
       <div className={`menu__content ${isOpen ? "menu__content--open" : ""}`}>
         <ul className="menu__nav">
           <li className="menu__nav--services">
-            <NavLink aria-label="services" to="/services">
+            <NavLink aria-label="services" to="/services" onClick={closeMenu}>
               {t("navigation.services")}
             </NavLink>
           </li>
           <li className="menu__nav--rates">
-            <NavLink aria-label="rates" to="/rates">
+            <NavLink aria-label="rates" to="/rates" onClick={closeMenu}>
               {t("navigation.rates")}
             </NavLink>
           </li>
           <li className="menu__nav--contact">
-            <NavLink aria-label="contact" to="/contact">
+            <NavLink aria-label="contact" to="/contact" onClick={closeMenu}>
               {t("navigation.contact")}
             </NavLink>
           </li>

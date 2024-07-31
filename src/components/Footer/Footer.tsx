@@ -48,7 +48,7 @@ const Footer = () => {
               />
             </a>
           </li>
-          <li className="footer__author--title">&copy; Llar Canina 2024</li>
+          <li className="footer__author--title">Llar Canina 2024</li>
         </ul>
       </div>
     </FooterStyled>
