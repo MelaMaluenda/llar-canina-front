@@ -66,13 +66,19 @@ const Location = (): React.ReactElement => {
         </div>
       </article>
       <article className="gps">
-        <img
-          className="gps__map"
-          src="/images/randommap.png"
-          alt="Map"
-          width="949"
-          height="439"
-        />
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=41.40842128780011,2.1450648695123555"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="gps__map"
+            src="/images/randommap.png"
+            alt="Map"
+            width="949"
+            height="439"
+          />
+        </a>
       </article>
     </LocationStyled>
   );

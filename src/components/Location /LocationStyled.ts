@@ -4,6 +4,7 @@ const LocationStyled = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: ${({ theme }) => theme.colors.darkGreenBackground};
 
   .title {
     display: flex;
@@ -18,12 +19,10 @@ const LocationStyled = styled.section`
   .information {
     width: 100%;
     padding: 10px;
-    background-color: ${({ theme }) => theme.colors.darkGreenBackground};
     color: ${({ theme }) => theme.colors.light};
   }
   .gps {
     width: 55%;
-    background-color: ${({ theme }) => theme.colors.lighterBackgroundOpacity};
 
     &__map {
       width: 100vw;
