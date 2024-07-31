@@ -10,8 +10,10 @@ const ShopStyled = styled.section`
   .icon {
     margin-bottom: 20px;
     &__image {
-      max-width: 40%;
+      width: 40%;
+      max-width: 150px;
       height: auto;
+      transition: width 0.3s ease;
     }
   }
 
@@ -23,10 +25,12 @@ const ShopStyled = styled.section`
       margin-bottom: 20px;
 
       &--image {
+        width: 100%;
         max-width: 80%;
         height: auto;
         border-radius: 15px;
         transform: scaleX(-1);
+        object-fit: cover;
       }
     }
 
@@ -53,14 +57,15 @@ const ShopStyled = styled.section`
   @media (min-width: 480px) {
     .icon {
       &__image {
-        max-width: 30%;
+        width: 30%;
+        max-width: 200px;
       }
     }
 
     .shop {
       &__container {
         &--image {
-          max-width: 80%;
+          width: 100%;
         }
       }
 
@@ -83,24 +88,33 @@ const ShopStyled = styled.section`
 
     .icon {
       &__image {
-        max-width: 25%;
+        width: 22%;
+        max-width: 250px;
       }
     }
 
     .shop {
       flex-direction: row;
       align-items: flex-start;
-      gap: 20px;
+      gap: 25px;
 
       &__container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
         &--image {
-          max-width: 90%;
-          margin: 20px;
+          max-width: 100%;
+          margin: 20px auto;
         }
       }
 
       &__explanation {
-        width: 70%;
+        flex: 2;
+        width: 100%;
+        margin: 0;
 
         &--title {
           text-align: left;
@@ -118,7 +132,8 @@ const ShopStyled = styled.section`
     padding: 40px 50px;
     .icon {
       &__image {
-        max-width: 20%;
+        width: 20%;
+        max-width: 300px;
       }
     }
 
@@ -127,7 +142,7 @@ const ShopStyled = styled.section`
 
       &__container {
         &--image {
-          max-width: 100%;
+          max-width: 90%;
         }
       }
 
@@ -149,16 +164,14 @@ const ShopStyled = styled.section`
     padding: 40px 100px;
     .icon {
       &__image {
-        max-width: 15%;
+        width: 20%;
+        max-width: 350px;
       }
     }
 
     .shop {
-      gap: 10px;
-
       &__container {
         &--image {
-          max-width: 100%;
         }
       }
 
