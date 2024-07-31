@@ -42,8 +42,8 @@
   "location": {
     "title": "¡Ven a visitarnos!",
     "gps": "Calle de Homero 42, Barcelona",
-    "clock1": "LU a VI de 7:00 - 20:00h,",
-    "clock2": "SA, DO y festivos de 9:00 - 20:00h.",
+    "clock1": "Lunes a viernes de 7:00 - 20:00h.",
+    "clock2": "Sábado, domingo y festivos de 9:00 - 20:00h.",
     "email": "info@llarcanina.cat",
     "phone": "+34 - 679 372 372 "
   },
@@ -67,5 +67,11 @@
     "section1-p2": "Tenemos una amplia gama de decoraciones, tamaños y colores, permitiéndote elegir el que más te guste y se adapte a tus necesidades. Nuestras creaciones no solo reflejan calidad y comodidad, sino también el amor y la dedicación con que fueron hechos, acompañando a tus adorados compañeros en cada paso de sus aventuras.",
     "title2": "Tienda presencial",
     "section2-p": "En nuestra tienda presencial, encontrarás una variedad de juguetes para que tu peludo se divierta, así como diferentes tipos de snacks y premios. También disponemos de accesorios para paseos y el hogar, como cuencos, botellas de agua, bozales y collares antiparasitarios. Todo lo esencial para las aventuras y el bienestar de tu mascota."
+  },
+
+  "walks": {
+    "title": "Paseos por el parque",
+    "p1": "Realizamos paseos a los perros que estén mas de 4 horas, los paseamos durante unos 20 minutos por el parque del putxet, asi ellos pueden olfatear y hacer sus necesidades.",
+    "p2": "Es muy importante que puedan tener un buen paseo, por eso paseamos como maximo a dos perros a la vez, así podrán tener mas libertad a la hora de olfatear, hacer sus necesidades…"
   }
 }
