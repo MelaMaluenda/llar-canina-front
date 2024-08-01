@@ -19,6 +19,7 @@ const WalksStyled = styled.section`
   .walks {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     &__container {
       margin-bottom: 20px;
