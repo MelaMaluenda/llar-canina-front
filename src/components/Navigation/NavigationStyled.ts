@@ -189,7 +189,7 @@ const NavigationStyled = styled.div`
     left: 0;
     top: 0;
     right: 0;
-    z-index: 2;
+    z-index: 3;
 
     .menu {
       &__head {

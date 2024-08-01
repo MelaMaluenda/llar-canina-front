@@ -71,7 +71,30 @@
 
   "walks": {
     "title": "Paseos por el parque",
-    "p1": "Realizamos paseos a los perros que estén mas de 4 horas, los paseamos durante unos 20 minutos por el parque del putxet, asi ellos pueden olfatear y hacer sus necesidades.",
-    "p2": "Es muy importante que puedan tener un buen paseo, por eso paseamos como maximo a dos perros a la vez, así podrán tener mas libertad a la hora de olfatear, hacer sus necesidades…"
+    "p1": "Ofrecemos paseos a los perros que están con nosotros por más de 4 horas, asegurando que reciban el ejercicio y la estimulación mental que necesitan. Estos paseos de unos 20 minutos se realizan en el bonito Parque del Putxet, donde pueden olfatear y hacer sus necesidades en un entorno natural.",
+    "p2": "Para garantizar la mejor experiencia, paseamos a un máximo de dos perros a la vez. Así, cada perro tiene la libertad de explorar a su propio ritmo y recibe la atención individualizada que merece. Creemos que un buen paseo no solo mantiene a los perros activos, sino que también les ayuda a relajarse y disfrutar más de su tiempo con nosotros."
+  },
+
+  "form": {
+    "reservationTitle": "Formulario de reserva",
+    "reservationDescription": "Ofrece a tu perro un espacio seguro y divertido donde pasar el día. En nuestra guardería, combinamos la tranquilidad de un ambiente familiar con actividades lúdicas para que tu peludo disfrute al máximo. ¡Completa el formulario y reserva su plaza! En menos de 72 horas te confirmaremos la reserva y te informaremos de todos los detalles.",
+    "humanName": "*Nombre y apellido:",
+    "dogName": "*Nombre del perro:",
+    "dogAge": "Edad de tu perro:",
+    "email": "*Correo electrónico:",
+    "phone": "*Teléfono de contacto:",
+    "startDate": "*Selecciona el primer día:",
+    "endDate": "Selecciona el último día(si hay más de uno):",
+    "startTime": "*Hora de inicio:",
+    "endTime": "*Hora de fin:",
+    "isFirstTime": "¿Es la primera vez que viene?",
+    "yes": "Sí",
+    "no": "No",
+    "hasBono": "¿Dispones de bono?",
+    "aboutDog": "Conociendo a tu perro:",
+    "aboutDogPlaceholder": "Cuéntanos sobre tu perro y sus necesidades, ¡queremos conocerlo!",
+    "submit": "Enviar",
+    "successMessage": "Hemos recibido tu solicitud con éxito, en 24h-72h contactaremos para darte una respuesta. En el caso que se trate de una urgencia, es preferible que nos llames.",
+    "errorMessage": "Ha habido un problema al intentar enviar el formulario. Por favor, intenta de nuevo."
   }
 }

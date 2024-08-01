@@ -9,10 +9,17 @@ const LocationStyled = styled.section`
   .title {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 10px;
 
     &__label {
       color: ${({ theme }) => theme.colors.light};
       letter-spacing: 1.5px;
+    }
+
+    &__footprint {
+      width: 25px;
+      height: 18px;
     }
   }
 
@@ -50,6 +57,7 @@ const LocationStyled = styled.section`
 
       &--text {
         font-size: 14px;
+        text-align: left;
       }
     }
 
@@ -70,6 +78,11 @@ const LocationStyled = styled.section`
     }
 
     .title {
+      &__footprint {
+        width: 40px;
+        height: 33px;
+      }
+
       &__label {
       }
     }
@@ -106,7 +119,17 @@ const LocationStyled = styled.section`
       }
     }
 
+    .title {
+      &__label {
+        padding-bottom: 10px;
+      }
+    }
+
     .data {
+    }
+
+    .information {
+      padding: 30px 20px;
     }
   }
 
@@ -124,7 +147,7 @@ const LocationStyled = styled.section`
     }
 
     .information {
-      padding: 10px;
+      padding: 40px 20px;
     }
 
     .data {
