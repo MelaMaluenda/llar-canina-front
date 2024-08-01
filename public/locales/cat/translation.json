@@ -71,7 +71,30 @@
 
   "walks": {
     "title": "Passejades pel parc",
-    "p1": "Realitzem passejades als gossos que estiguin més de 4 hores, els passegem durant uns 20 minuts pel parc del putxet, així ells poden olorar i fer les seves necessitats.",
-    "p2": "És molt important que puguin tenir una bona passejada, per això passegem com a màxim dos gossos alhora, així podran tenir més llibertat a l'hora d'olorar, fer les seves necessitats…"
+    "p1": "Oferim passejos als gossos que estan amb nosaltres més de 4 hores, assegurant que rebin l'exercici i l'estimulació mental que necessiten. Aquests passejos, d'uns 20 minuts, es fan al bonic Parc del Putxet, on poden ensumar i fer les seves necessitats en un entorn natural.",
+    "p2": "Per garantir la millor experiència, passegem un màxim de dos gossos alhora. Així, cada gos té la llibertat d'explorar al seu propi ritme i rep l'atenció individualitzada que mereix. Creiem que un bon passeig no només manté els gossos actius, sinó que també els ajuda a relaxar-se i gaudir més del seu temps amb nosaltres."
+  },
+
+  "form": {
+    "reservationTitle": "Formulari de reserva",
+    "reservationDescription": "Ofereix al teu gos un espai segur i divertit on passar el dia. A la nostra guarderia, combinem la tranquil·litat d'un ambient familiar amb activitats lúdiques per a que el teu pelut gaudeixi al màxim. Completa el formulari i reserva la seva plaça! En menys de 72 hores et confirmarem la reserva i t'informarem de tots els detalls.",
+    "humanName": "*Nom i cognom:",
+    "dogName": "*Nom del teu gos:",
+    "dogAge": "L'edat del teu gos:",
+    "email": "*Adreça electrònica:",
+    "phone": "*Telèfon de contacte:",
+    "startDate": "*Selecciona el primer dia:",
+    "endDate": "Selecciona l'últim dia(si n'hi ha més d'un):",
+    "startTime": "*Hora d'inici:",
+    "endTime": "*Hora de fi:",
+    "isFirstTime": "És la primera vegada que veniu?",
+    "yes": "Sí",
+    "no": "No",
+    "hasBono": "Disposes de abonaments?",
+    "aboutDog": "Coneixent el teu gos:",
+    "aboutDogPlaceholder": "Explica'ns sobre el teu gos i les seves necessitats, volem conèixer-lo!",
+    "submit": "Enviar",
+    "successMessage": "Hem rebut la teva sol·licitud amb èxit, a 24h-72h contactarem per donar-te una resposta. En cas que es tracti d'una urgència, és preferible que ens truquis.",
+    "errorMessage": "Hi ha hagut un problema en intentar enviar el formulari. Si us plau, intenta de nou."
   }
 }
