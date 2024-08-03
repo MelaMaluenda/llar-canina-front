@@ -96,5 +96,38 @@
     "submit": "Enviar",
     "successMessage": "Hemos recibido tu solicitud con éxito, en 24h-72h contactaremos para darte una respuesta. En el caso que se trate de una urgencia, es preferible que nos llames.",
     "errorMessage": "Ha habido un problema al intentar enviar el formulario. Por favor, intenta de nuevo."
+  },
+
+  "rates": {
+    "title": "Tarifas",
+    "description": "¡Hola! En nuestro centro queremos que tu peludo se sienta como en casa, y parte de ese proceso es asegurarnos de que el precio sea justo y claro para ti. A continuación, te presentamos nuestras tarifas:",
+    "hourPriceTitle": "Precio por hora",
+    "hourPriceDescription": "De lunes a viernes, ofrecemos un precio muy competitivo de solo 3,5€ por hora. Sabemos que los fines de semana y festivos son momentos especiales para todos, así que durante estos días el precio es de 4€ por hora.",
+    "bonusPriceTitle": "Bonos para ahorradores",
+    "bonusPriceDescription": "Si sueles dejarnos a tu perro más a menudo, ¡tenemos algo perfecto para ti! Hemos creado unos bonos que te permitirán ahorrar mientras aseguras el mejor cuidado para tu peludo.",
+    "bonus50Title": "Bono de 50 horas",
+    "bonus50Description": "Por solo 150€, puedes disfrutar de 50 horas de diversión y cuidados para tu amigo de cuatro patas.",
+    "bonus100Title": "Bono de 100 horas",
+    "bonus100Description": "Más horas, más ahorro. ¡Disfruta de 100 horas por solo 250€!",
+    "bonus200Title": "Bono de 200 horas",
+    "bonus200Description": "¿Eres un cliente habitual? Aprovecha nuestro bono de 200 horas por 400€.",
+    "deadlinesTitle": "Términos y Condiciones de los Bonos",
+    "deadlinesDescription": "Queremos que le saques el máximo provecho a tu bono:",
+    "deadlinesP1": "⟫ Válido de lunes a viernes.",
+    "deadlinesP2": "⟫ Consumo mínimo: 3 horas por visita.",
+    "deadlinesP3": "⟫ Caducidad: 3 meses desde la fecha de compra.",
+    "finalDescription": "Recuerda que los pagos se realizan en el centro, ¡así podemos personalizar cada estancia para que sea perfecta!"
+  },
+
+  "requirements": {
+    "title": "Requerimientos",
+    "cardTitle1": "Tipo de perros",
+    "cardDescription1": "En nuestro centro, la seguridad y el bienestar de todos los peludos es nuestra máxima prioridad. Aceptamos a perros siempre y cuando no sean reactivos ni presenten problemas de comportamiento agresivo. Queremos asegurarnos de que todos se sientan cómodos y felices durante su estancia con nosotros. Lamentablemente, debido a la normativa y para mantener un ambiente seguro, no podemos aceptar perros nominados como PPP",
+    "cardTitle2": "Primera visita",
+    "cardDescription2": "Antes de que tu perro pueda quedarse con nosotros por primera vez, nos gusta realizar una pequeña evaluación gratuita de 30 minutos. Esta es una oportunidad para que tu peludo y nosotros nos conozcamos. Después de eso, realizamos una **adaptación de 3 horas (no gratuita) para que tu perro se familiarice con el entorno y se sienta como en casa. Sabemos que estas primeras impresiones son importantes, y queremos asegurarnos de que todo sea perfecto.",
+    "cardTitle3": "Atención personalizada",
+    "cardDescription3": "Cada perro es único, y entendemos que algunos necesitan cuidados especiales. Si tu perro necesita una comida específica durante su estancia, no te preocupes: ¡nosotros nos encargamos! Solo necesitas traernos su comida y nosotros nos aseguramos de que la reciba a su hora. Lo mismo aplica si tu peludo necesita medicación o algún tratamiento; estamos aquí para ayudar y asegurarnos de que reciba todo lo que necesita.",
+    "cardTitle4": "Descuentos",
+    "cardDescription4": "Sabemos lo que significa ser una familia perruna. Si traes a más de un perro, te ofrecemos un 10% de descuento en nuestros servicios. ¡Queremos que todos tus peludos disfruten de su tiempo con nosotros!"
   }
 }

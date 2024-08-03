@@ -24,10 +24,8 @@ const RequirementsStyled = styled.article`
   .card {
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid ${({ theme }) => theme.colors.lighterBackground};
     color: ${({ theme }) => theme.colors.darkBlueBackground};
-    box-shadow: 0px 4px 8px
-      ${({ theme }) => theme.colors.lighterBackgroundOpacity};
+    box-shadow: 3px 3px 1px ${({ theme }) => theme.colors.darkBlueBackground};
 
     &__title {
       font-size: 18px;

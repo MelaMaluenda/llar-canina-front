@@ -99,6 +99,7 @@ const LocationStyled = styled.section`
       justify-content: center;
 
       &__info {
+        padding: 8px;
         &--icon {
           &--text {
           }
@@ -150,6 +151,7 @@ const LocationStyled = styled.section`
 
     .data {
       &__info {
+        padding: 15px;
         &--icon {
           width: 40px;
           height: 40px;
