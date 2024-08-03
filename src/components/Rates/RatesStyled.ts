@@ -203,6 +203,7 @@ const RatesStyled = styled.section`
       grid-template-columns: repeat(2, 1fr); /* Asegurar dos columnas */
       grid-gap: 20px;
       max-width: 1200px;
+      margin: 0 auto;
 
       &__title {
         font-size: 24px;
@@ -275,17 +276,19 @@ const RatesStyled = styled.section`
 
   @media (min-width: 1024px) {
     .rates {
+      margin-top: 25px;
       &__title {
-        font-size: 32px;
       }
 
       &__description {
         font-size: 20px;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
       }
 
       &__box {
         &--title {
-          font-size: 32px;
         }
 
         &--bonus {
@@ -297,7 +300,6 @@ const RatesStyled = styled.section`
 
       .content {
         &__description {
-          font-size: 20px;
         }
 
         &__image {
@@ -307,11 +309,9 @@ const RatesStyled = styled.section`
 
       .bonus {
         &__title {
-          font-size: 32px;
         }
 
         &__description {
-          font-size: 20px;
         }
       }
 
