@@ -96,5 +96,38 @@
     "submit": "Enviar",
     "successMessage": "Hem rebut la teva sol·licitud amb èxit, a 24h-72h contactarem per donar-te una resposta. En cas que es tracti d'una urgència, és preferible que ens truquis.",
     "errorMessage": "Hi ha hagut un problema en intentar enviar el formulari. Si us plau, intenta de nou."
+  },
+
+  "rates": {
+    "title": "Tarifes",
+    "description": "Hola! Al nostre centre volem que el teu pelut se senti com a casa, i part d'aquest procés és assegurar-nos que el preu sigui just i clar per a tu. A continuació, et presentem les nostres tarifes:",
+    "hourPriceTitle": "Preu per hora",
+    "hourPriceDescription": "De dilluns a divendres, oferim un preu molt competitiu de només 3,5€ l'hora. Sabem que els caps de setmana i festius són moments especials per a tothom, així que durant aquests dies el preu és de 4€ l'hora.",
+    "bonusPriceTitle": "Abonaments per a estalviadors",
+    "bonusPriceDescription": "Si sols deixar-nos al teu gos més sovint, tenim una cosa perfecta per a tu! Hem creat uns bons que et permetran estalviar mentre assegures la millor cura per al teu pelut.",
+    "bonus50Title": "Abonament de 50 hores",
+    "bonus50Description": "Per només 150€, pots gaudir de 50 hores de diversió i cures per al teu amic de quatre potes.",
+    "bonus100Title": "Abonament de 100 hores",
+    "bonus100Description": "Més hores, més estalvi. Gaudeix de 100 hores per només 250€!",
+    "bonus200Title": "Abonament 200 hores",
+    "bonus200Description": "Ets un client habitual? Aprofita el nostre bo de 200 hores per 400€.",
+    "deadlinesTitle": "Termes i Condicions dels Abonaments",
+    "deadlinesDescription": "Volem que treguis el màxim profit al teu bo:",
+    "deadlinesP1": "⟫ Vàlid de dilluns a divendres.",
+    "deadlinesP2": "⟫ Consum mínim: 3 hores per visita.",
+    "deadlinesP3": "⟫ Caducitat: 3 mesos des de la data de compra.",
+    "finalDescription": "Recorda que els pagaments es realitzen al centre, així podem personalitzar cada estada perquè sigui perfecta!"
+  },
+
+  "requirements": {
+    "title": "Requeriments",
+    "cardTitle1": "Tipus de gossos",
+    "cardDescription1": "Al nostre centre, la seguretat i el benestar de tots els peluts és la nostra màxima prioritat. Acceptem gossos sempre que no siguin reactius ni presentin problemes de comportament agressiu. Volem assegurar-nos que tots se sentin còmodes i feliços durant la seva estada amb nosaltres. Lamentablement, a causa de la normativa i per mantenir un ambient segur, no podem acceptar gossos nominats com a PPP",
+    "cardTitle2": "Primera visita",
+    "cardDescription2": "Abans que el teu gos pugui quedar-se amb nosaltres per primera vegada, ens agrada fer una petita avaluació gratuïta de 30 minuts. Aquesta és una oportunitat perquè el teu pelut i nosaltres ens coneguem. Després d'això, realitzem una **adaptació de 3 hores (no gratuïta) perquè el teu gos es familiaritzi amb l'entorn i se senti com a casa. Sabem que aquestes primeres impressions són importants, i volem assegurar-nos que tot sigui perfecte.",
+    "cardTitle3": "Atenció personalitzada",
+    "cardDescription3": "Cada gos és únic, i entenem que alguns necessiten cures especials. Si el teu gos necessita un menjar específic durant la seva estada, no et preocupis: nosaltres ens encarreguem! Només necessites portar-nos el menjar i nosaltres ens assegurem que el rebi a la seva hora. El mateix aplica si el teu pelut necessita medicació o algun tractament",
+    "cardTitle4": "Descomptes",
+    "cardDescription4": "Sabem què vol dir ser una família gossa. Si portes més d'un gos, t'oferim un 10% de descompte als nostres serveis. Volem que tots els teus peluts gaudeixin del seu temps amb nosaltres! "
   }
 }
