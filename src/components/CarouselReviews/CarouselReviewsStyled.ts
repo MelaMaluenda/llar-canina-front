@@ -8,6 +8,7 @@ export const ReviewContainer = styled(Paper)`
   padding: 10px;
   margin: 75px 20px 20px 20px;
   box-shadow: none;
+  flex-shrink: 0;
 
   .review {
     display: flex;

@@ -15,7 +15,7 @@ const Location = (): React.ReactElement => {
             width="54"
             height="47"
           />
-          <h2 className="title__label"> {t("location.title")} </h2>
+          <h2 className="title__labell"> {t("location.title")} </h2>
         </div>
         <div className="data">
           <ul>
@@ -70,13 +70,14 @@ const Location = (): React.ReactElement => {
           href="https://www.google.com/maps/dir/?api=1&destination=41.40842128780011,2.1450648695123555"
           target="_blank"
           rel="noopener noreferrer"
+          className="gps__link"
         >
           <img
             className="gps__map"
-            src="/images/randommap.png"
+            src="/images/maps2.jpg"
             alt="Map"
-            width="949"
-            height="439"
+            width="555"
+            height="375"
           />
         </a>
       </article>
