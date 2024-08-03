@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 const LocationStyled = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: ${({ theme }) => theme.colors.darkGreenBackground};
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 
   .title {
     display: flex;
@@ -12,9 +11,9 @@ const LocationStyled = styled.section`
     align-items: center;
     gap: 10px;
 
-    &__label {
+    &__labell {
       color: ${({ theme }) => theme.colors.light};
-      letter-spacing: 1.5px;
+      letter-spacing: 2.5px;
     }
 
     &__footprint {
@@ -24,18 +23,22 @@ const LocationStyled = styled.section`
   }
 
   .information {
-    width: 100%;
+    background-color: ${({ theme }) => theme.colors.darkGreenBackground};
     padding: 10px;
     color: ${({ theme }) => theme.colors.light};
   }
   .gps {
-    width: 55%;
+    display: flex;
+    align-items: stretch;
+
+    &__link {
+      flex-grow: 2;
+    }
 
     &__map {
-      width: 100vw;
-      height: 250px;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      align-content: center;
     }
   }
 
@@ -73,7 +76,6 @@ const LocationStyled = styled.section`
   @media (min-width: 480px) {
     .gps {
       &__map {
-        height: 250px;
       }
     }
 
@@ -111,11 +113,10 @@ const LocationStyled = styled.section`
   }
 
   @media (min-width: 768px) {
-    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     .gps {
       &__map {
-        width: 50vw;
-        height: 360px;
       }
     }
 
@@ -129,15 +130,13 @@ const LocationStyled = styled.section`
     }
 
     .information {
-      padding: 30px 20px;
+      padding: 20px;
     }
   }
 
   @media (min-width: 1024px) {
     .gps {
       &__map {
-        width: 60vw;
-        height: 400px;
       }
     }
 
@@ -147,7 +146,6 @@ const LocationStyled = styled.section`
     }
 
     .information {
-      padding: 40px 20px;
     }
 
     .data {
