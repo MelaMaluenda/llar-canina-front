@@ -31,14 +31,12 @@ const ServicesStyled = styled.section`
       padding: 10px;
       margin-top: 10px;
       text-transform: uppercase;
-      font-weight: 400;
       color: ${({ theme }) => theme.colors.darkBlueBackground};
       font-size: 18px;
     }
 
     &__text {
       padding: 10px;
-
       width: 100%;
       font-family: ${({ theme }) => theme.typography.mainFontFamily};
       font-size: 14px;

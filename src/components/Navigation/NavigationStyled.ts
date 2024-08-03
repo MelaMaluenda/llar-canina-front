@@ -30,7 +30,6 @@ const NavigationStyled = styled.div`
       &--services,
       &--rates,
       &--contact {
-        font-weight: 400;
         text-transform: uppercase;
         font-family: ${({ theme }) => theme.typography.titleFontFamily};
         font-size: 14px;
@@ -46,7 +45,6 @@ const NavigationStyled = styled.div`
       padding: 10px 0;
 
       &--i {
-        font-weight: 500;
         width: 40px;
         height: 25px;
         border: 1px solid ${({ theme }) => theme.colors.lighterBackground};
@@ -57,7 +55,6 @@ const NavigationStyled = styled.div`
       }
 
       &--i:hover {
-        font-weight: 800;
         background-color: ${({ theme }) => theme.colors.lighterBackground};
         color: ${({ theme }) => theme.colors.light};
       }
@@ -98,7 +95,6 @@ const NavigationStyled = styled.div`
   }
 
   .active {
-    font-weight: 900;
     text-decoration-line: underline;
   }
 

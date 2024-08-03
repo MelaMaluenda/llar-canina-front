@@ -17,11 +17,14 @@ const ReservationFormStyled = styled.section`
 
     &__title {
       margin: 10px;
+      font-size: 18px;
+      letter-spacing: 2.5px;
     }
 
     &__description {
       margin-bottom: 30px;
       text-align: justify;
+      font-size: 14px;
     }
 
     &__group {
@@ -30,7 +33,6 @@ const ReservationFormStyled = styled.section`
     }
 
     &__label {
-      font-weight: bold;
       text-align: left;
       margin-bottom: 0.5em;
       padding-left: 0.5em;
@@ -44,7 +46,7 @@ const ReservationFormStyled = styled.section`
       width: 100%;
       padding: 0.5em;
       border-radius: 4px;
-      border: 2px solid ${({ theme }) => theme.colors.darkBlueBackground};
+      border: 2px solid ${({ theme }) => theme.colors.lighterBackground};
     }
 
     &__textarea {
@@ -54,6 +56,19 @@ const ReservationFormStyled = styled.section`
 
     &__input--half {
       display: inline-block;
+      width: 110px;
+    }
+
+    &__input--circle {
+      width: 20px;
+      height: 20px;
+    }
+
+    &__circle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 10px;
     }
 
     &__button {
@@ -64,6 +79,9 @@ const ReservationFormStyled = styled.section`
       border-radius: 4px;
       cursor: pointer;
       margin-bottom: 25px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 14px;
 
       &:hover {
         background: ${({ theme }) => theme.colors.lightButton};
@@ -88,7 +106,7 @@ const ReservationFormStyled = styled.section`
 
     &__radio-group {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       width: 100%;
     }
 
@@ -97,24 +115,27 @@ const ReservationFormStyled = styled.section`
       justify-content: space-evenly;
     }
 
-    @media (max-width: 320px) {
+    @media (min-width: 480px) {
       &__container {
-        padding: 0.5em;
+        padding: 1.5em;
       }
-      &__input {
-        width: 100%;
-      }
-    }
 
-    @media (min-width: 320px) and (max-width: 480px) {
-      &__container {
-        max-width: 90%;
+      &__input {
+      }
+
+      &__title {
+        margin: 15px;
+        font-size: 24px;
+      }
+
+      &__description {
+        font-size: 16px;
+        margin-bottom: 35px;
       }
     }
 
     @media (min-width: 768px) {
-      &__input,
-      &__textarea {
+      &__container {
         padding: 0.75em;
       }
 
@@ -122,12 +143,46 @@ const ReservationFormStyled = styled.section`
         text-align: left;
         padding-left: 1em;
       }
+
+      &__title {
+        margin: 20px;
+      }
+
+      &__description {
+        font-size: 17px;
+        margin-bottom: 40px;
+      }
+
+      &__button {
+        font-size: 16px;
+      }
     }
 
     @media (min-width: 1024px) {
       &__input,
       &__textarea {
         padding: 1em;
+      }
+
+      &__title {
+        font-size: 32px;
+      }
+
+      &__description {
+        font-size: 20px;
+      }
+    }
+
+    @media (min-width: 1440px) {
+      &__input,
+      &__textarea {
+      }
+
+      &__title {
+      }
+
+      &__description {
+        font-size: 22px;
       }
     }
   }

@@ -209,24 +209,28 @@ const ReservationForm: React.FC = () => {
                 {t("form.isFirstTime")}
               </label>
               <div className="reservation-form__radio-group">
-                <input
-                  className="reservation-form__input"
-                  type="radio"
-                  id="primeraVezYes"
-                  name="primeraVez"
-                  value="yes"
-                  onChange={handleChange}
-                />
-                <label htmlFor="primeraVezYes">{t("form.yes")}</label>
-                <input
-                  className="reservation-form__input"
-                  type="radio"
-                  id="primeraVezNo"
-                  name="primeraVez"
-                  value="no"
-                  onChange={handleChange}
-                />
-                <label htmlFor="primeraVezNo">{t("form.no")}</label>
+                <div className="reservation-form__circle">
+                  <input
+                    className="reservation-form__input reservation-form__input--circle"
+                    type="radio"
+                    id="primeraVezYes"
+                    name="primeraVez"
+                    value="yes"
+                    onChange={handleChange}
+                  />
+                  <label htmlFor="primeraVezYes">{t("form.yes")}</label>
+                </div>
+                <div className="reservation-form__circle">
+                  <input
+                    className="reservation-form__input reservation-form__input--circle"
+                    type="radio"
+                    id="primeraVezNo"
+                    name="primeraVez"
+                    value="no"
+                    onChange={handleChange}
+                  />
+                  <label htmlFor="primeraVezNo">{t("form.no")}</label>
+                </div>
               </div>
             </div>
 
@@ -235,24 +239,28 @@ const ReservationForm: React.FC = () => {
                 {t("form.hasBono")}
               </label>
               <div className="reservation-form__radio-group">
-                <input
-                  className="reservation-form__input"
-                  type="radio"
-                  id="tieneBonoYes"
-                  name="tieneBono"
-                  value="yes"
-                  onChange={handleChange}
-                />
-                <label htmlFor="tieneBonoYes">{t("form.yes")}</label>
-                <input
-                  className="reservation-form__input"
-                  type="radio"
-                  id="tieneBonoNo"
-                  name="tieneBono"
-                  value="no"
-                  onChange={handleChange}
-                />
-                <label htmlFor="tieneBonoNo">{t("form.no")}</label>
+                <div className="reservation-form__circle">
+                  <input
+                    className="reservation-form__input reservation-form__input--circle"
+                    type="radio"
+                    id="tieneBonoYes"
+                    name="tieneBono"
+                    value="yes"
+                    onChange={handleChange}
+                  />
+                  <label htmlFor="tieneBonoYes">{t("form.yes")}</label>
+                </div>
+                <div className="reservation-form__circle">
+                  <input
+                    className="reservation-form__input reservation-form__input--circle"
+                    type="radio"
+                    id="tieneBonoNo"
+                    name="tieneBono"
+                    value="no"
+                    onChange={handleChange}
+                  />
+                  <label htmlFor="tieneBonoNo">{t("form.no")}</label>
+                </div>
               </div>
             </div>
 
