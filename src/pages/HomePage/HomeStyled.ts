@@ -22,7 +22,6 @@ const HomeStyled = styled.main`
       text-transform: uppercase;
       color: ${({ theme }) => theme.colors.darkBlueBackground};
       font-size: 18px;
-      font-weight: 400;
       text-align: center;
     }
 
