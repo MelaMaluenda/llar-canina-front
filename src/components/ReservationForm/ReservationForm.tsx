@@ -35,7 +35,7 @@ const ReservationForm: React.FC = () => {
     e.preventDefault();
     setError(null);
 
-    const response = await fetch("https://getform.io/f/apjmxvra", {
+    const response = await fetch("https://getform.io/f/aqonvnva", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
