@@ -30,6 +30,7 @@ const ReservationFormStyled = styled.section`
     &__group {
       display: flex;
       flex-direction: column;
+      margin-bottom: 5px;
     }
 
     &__label {
