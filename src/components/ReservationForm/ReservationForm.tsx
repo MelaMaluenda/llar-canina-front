@@ -17,6 +17,7 @@ const ReservationForm: React.FC = () => {
     primeraVez: "",
     tieneBono: "",
     acercaDelPerro: "",
+    tamañoPerro: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -35,17 +36,38 @@ const ReservationForm: React.FC = () => {
     e.preventDefault();
     setError(null);
 
-    const response = await fetch("https://getform.io/f/aqonvnva", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(form),
-    });
+    const options: Intl.DateTimeFormatOptions = {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    };
 
-    if (response.ok) {
-      setSubmitted(true);
-    } else {
+    const formattedForm = {
+      ...form,
+      fechaInicio: new Date(form.fechaInicio).toLocaleDateString(
+        "es-ES",
+        options,
+      ),
+      fechaFin: form.fechaFin
+        ? new Date(form.fechaFin).toLocaleDateString("es-ES", options)
+        : "",
+    };
+
+    try {
+      const response = await fetch("https://formspree.io/f/mwpebepr", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formattedForm),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        setError(t("form.errorMessage"));
+      }
+    } catch (error) {
       setError(t("form.errorMessage"));
     }
   };
@@ -98,6 +120,50 @@ const ReservationForm: React.FC = () => {
             </div>
 
             <div className="reservation-form__group">
+              <label className="reservation-form__label">
+                {t("form.dogSize")} {/* Traducción de "Tamaño del Perro" */}
+              </label>
+              <div className="reservation-form__radio-group">
+                <div className="reservation-form__circle">
+                  <input
+                    className="reservation-form__input reservation-form__input--circle"
+                    type="radio"
+                    id="tamañoGrande"
+                    name="tamañoPerro"
+                    value="grande"
+                    onChange={handleChange}
+                    required
+                  />
+                  <label htmlFor="tamañoGrande">{t("form.large")}</label>
+                </div>
+                <div className="reservation-form__circle">
+                  <input
+                    className="reservation-form__input reservation-form__input--circle"
+                    type="radio"
+                    id="tamañoMediano"
+                    name="tamañoPerro"
+                    value="mediano"
+                    onChange={handleChange}
+                    required
+                  />
+                  <label htmlFor="tamañoMediano">{t("form.medium")}</label>
+                </div>
+                <div className="reservation-form__circle">
+                  <input
+                    className="reservation-form__input reservation-form__input--circle"
+                    type="radio"
+                    id="tamañoPequeño"
+                    name="tamañoPerro"
+                    value="pequeño"
+                    onChange={handleChange}
+                    required
+                  />
+                  <label htmlFor="tamañoPequeño">{t("form.small")}</label>
+                </div>
+              </div>
+            </div>
+
+            <div className="reservation-form__group">
               <label className="reservation-form__label" htmlFor="edadPerro">
                 {t("form.dogAge")}
               </label>
@@ -110,6 +176,7 @@ const ReservationForm: React.FC = () => {
                 max="20"
                 value={form.edadPerro}
                 onChange={handleChange}
+                required
               />
               <span>{form.edadPerro}</span>
             </div>
@@ -185,6 +252,7 @@ const ReservationForm: React.FC = () => {
                   name="horaInicio"
                   value={form.horaInicio}
                   onChange={handleChange}
+                  step={900}
                   required
                 />
               </div>
@@ -199,6 +267,7 @@ const ReservationForm: React.FC = () => {
                   name="horaFin"
                   value={form.horaFin}
                   onChange={handleChange}
+                  step={900}
                   required
                 />
               </div>
