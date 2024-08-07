@@ -7,6 +7,7 @@ import { CarouselVisitorsData } from "../../components/CarouselVisitors/Carousel
 import CarouselReviews from "../../components/CarouselReviews/CarouselReviews";
 import CarouselReviewsData from "../../components/CarouselReviews/CarouselReviewsData";
 import Location from "../../components/Location /Location";
+import ResponsiveImage from "../../components/ResponsiveImage/ResponsiveImage";
 
 const HomePage = (): React.ReactElement => {
   const { t } = useTranslation("translation");
@@ -14,36 +15,43 @@ const HomePage = (): React.ReactElement => {
   return (
     <HomeStyled>
       <div className="title">
-        <img
+        <ResponsiveImage
           className="title__footprint"
-          src="/images/dog-footprint.webp"
+          imgUrl={{
+            small: "https://i.ibb.co/VmDmRdc/dog-footprint-320.webp",
+            medium: "https://i.ibb.co/G0FCTpg/dog-footprint-480.webp",
+            large: "https://i.ibb.co/G0FCTpg/dog-footprint-480.webp",
+          }}
           alt="A dog footprint"
-          width="54"
-          height="47"
         />
         <h2 className="title__label"> {t("services.title")} </h2>
       </div>
       <Services />
       <Us />
       <div className="title">
-        <img
+        <ResponsiveImage
           className="title__footprint"
-          src="/images/dog-footprint.webp"
+          imgUrl={{
+            small: "https://i.ibb.co/VmDmRdc/dog-footprint-320.webp",
+            medium: "https://i.ibb.co/G0FCTpg/dog-footprint-480.webp",
+            large: "https://i.ibb.co/G0FCTpg/dog-footprint-480.webp",
+          }}
           alt="A dog footprint"
-          width="54"
-          height="47"
         />
         <h2 className="title__label"> {t("visitors.title")} </h2>
       </div>
       <CarouselVisitors items={CarouselVisitorsData} />
       <div className="title title--stars">
         <h2 className="title__label"> {t("reviews.title")} </h2>
-        <img
+        <ResponsiveImage
           className="title__footprint--stars"
-          src="/images/stars.png"
+          imgUrl={{
+            small: "https://i.ibb.co/0BGjsD0/stars-320.webp",
+            medium: "https://i.ibb.co/FxKNd3w/stars-480.webp",
+            large: "https://i.ibb.co/FxKNd3w/stars-480.webp",
+            xlarge: "https://i.ibb.co/t2tyKwH/stars-1024.webp",
+          }}
           alt="Five stars as a"
-          width="360"
-          height="59"
         />
       </div>
       <CarouselReviews reviews={CarouselReviewsData} />
