@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import WalksStyled from "./WalksStyled";
+import ResponsiveImage from "../ResponsiveImage/ResponsiveImage";
 
 const Walks = (): React.ReactElement => {
   const { t } = useTranslation("translation");
@@ -7,22 +8,28 @@ const Walks = (): React.ReactElement => {
   return (
     <WalksStyled>
       <div className="icon">
-        <img
+        <ResponsiveImage
           className="icon__image"
-          src="/images/icon-shop.webp"
-          alt="A dog collar icon"
-          width="329"
-          height="290"
+          imgUrl={{
+            small: "https://i.ibb.co/7YHhSvy/i-paseo-320.webp",
+            medium: "https://i.ibb.co/NZtnhwb/i-paseo-480.webp",
+            large: "https://i.ibb.co/BPXbMwV/i-paseo-768.webp",
+            xlarge: "https://i.ibb.co/6BMWW1w/i-paseo-1024.webp",
+          }}
+          alt="A man walking with his dog"
         />
       </div>
       <article className="walks">
         <aside className="walks__container">
-          <img
+          <ResponsiveImage
             className="walks__container--image"
-            src="/images/parque.png"
+            imgUrl={{
+              small: "https://i.ibb.co/G9MP1Jq/parque-320.webp",
+              medium: "https://i.ibb.co/26Nzp56/parque-1024.webp",
+              large: "https://i.ibb.co/26Nzp56/parque-1024.webp",
+              xlarge: "https://i.ibb.co/y8HWjBP/parque-1440.webp",
+            }}
             alt="Two dogs in the parc"
-            width="684"
-            height="864"
           />
         </aside>
         <aside className="walks__explanation">

@@ -5,9 +5,15 @@ import {
   StyledItemGroup,
 } from "./CarouselVisitorsStyled";
 import { useMediaQuery } from "@mui/material";
+import ResponsiveImage from "../ResponsiveImage/ResponsiveImage";
 
 type ItemProps = {
-  imgUrl: string;
+  id: number;
+  imgUrl: {
+    small: string;
+    medium: string;
+    large: string;
+  };
 };
 
 type CarouselComponentProps = {
@@ -75,7 +81,11 @@ const ItemGroup: React.FC<{ items: ItemProps[] }> = ({ items }) => {
 const Item: React.FC<{ item: ItemProps }> = ({ item }) => {
   return (
     <CarouselVisitorsStyled elevation={0}>
-      <img src={item.imgUrl} alt="" />
+      <ResponsiveImage
+        imgUrl={item.imgUrl}
+        alt="Dogs into Putxer Parc"
+        className="carousel-image"
+      />
     </CarouselVisitorsStyled>
   );
 };

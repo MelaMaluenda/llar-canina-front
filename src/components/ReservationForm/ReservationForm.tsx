@@ -121,7 +121,7 @@ const ReservationForm: React.FC = () => {
 
             <div className="reservation-form__group">
               <label className="reservation-form__label">
-                {t("form.dogSize")} {/* Traducción de "Tamaño del Perro" */}
+                {t("form.dogSize")}
               </label>
               <div className="reservation-form__radio-group">
                 <div className="reservation-form__circle">
@@ -252,7 +252,6 @@ const ReservationForm: React.FC = () => {
                   name="horaInicio"
                   value={form.horaInicio}
                   onChange={handleChange}
-                  step={900}
                   required
                 />
               </div>
@@ -267,7 +266,6 @@ const ReservationForm: React.FC = () => {
                   name="horaFin"
                   value={form.horaFin}
                   onChange={handleChange}
-                  step={900}
                   required
                 />
               </div>

@@ -26,7 +26,7 @@ const ShopStyled = styled.section`
 
       &--image {
         width: 100%;
-        max-width: 80%;
+        max-width: 60%;
         height: auto;
         border-radius: 15px;
         transform: scaleX(-1);
@@ -65,7 +65,7 @@ const ShopStyled = styled.section`
     .shop {
       &__container {
         &--image {
-          width: 100%;
+          width: 50%;
         }
       }
 
@@ -106,6 +106,7 @@ const ShopStyled = styled.section`
         height: auto;
 
         &--image {
+          width: 100%;
           max-width: 100%;
           margin: 20px auto;
         }

@@ -31,17 +31,25 @@ const Navigation = (): React.ReactElement => {
           <div className="logo__container">
             <img
               className="logo__image"
-              src="/images/logo.webp"
+              src="https://i.ibb.co/b327WqR/logo-320.webp"
+              srcSet="
+              https://i.ibb.co/b327WqR/logo-320.webp 320w,
+              https://i.ibb.co/9tCjB02/logo-480.webp 480w,
+              "
+              sizes="(max-width: 480px) 320px, 480px"
               alt="Logo with a dog"
-              width="50"
-              height="60"
+              loading="lazy"
             />
             <img
               className="logo__text"
-              src="/images/letra-logo1.webp"
+              src="https://i.ibb.co/GH43PKM/letra-logo-480.webp"
+              srcSet="
+              https://i.ibb.co/GH43PKM/letra-logo-480.webp 768w,
+              https://i.ibb.co/GdpZg85/letra-logo-1024.webp 1024w,
+              "
+              sizes="(max-width: 768px) 100vw, 1024px"
               alt="Llar canina. Més que un animal de companyia"
-              width="200"
-              height="50"
+              loading="lazy"
             />
           </div>
         </Link>

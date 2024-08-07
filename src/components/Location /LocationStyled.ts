@@ -10,10 +10,14 @@ const LocationStyled = styled.section`
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    color: ${({ theme }) => theme.colors.light};
 
-    &__labell {
+    &__label--white {
       color: ${({ theme }) => theme.colors.light};
       letter-spacing: 2.5px;
+      text-transform: uppercase;
+      font-size: 18px;
+      text-align: center;
     }
 
     &__footprint {
@@ -53,6 +57,19 @@ const LocationStyled = styled.section`
       align-items: center;
       gap: 10px;
 
+      &--link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
       &--icon {
         width: 30px;
         height: 30px;
@@ -73,13 +90,24 @@ const LocationStyled = styled.section`
     }
   }
 
+  @media (min-width: 350px) {
+    grid-template-rows: 1fr;
+    .data {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
   @media (min-width: 480px) {
+    grid-template-rows: 1fr;
     .gps {
       &__map {
+        height: 300px;
       }
     }
 
     .title {
+      padding: 15px 0 0 0;
       &__footprint {
         width: 40px;
         height: 33px;
@@ -95,13 +123,12 @@ const LocationStyled = styled.section`
 
     .data {
       padding: 10px;
-      display: flex;
-      justify-content: center;
 
       &__info {
         padding: 8px;
         &--icon {
           &--text {
+            margin: 10px;
           }
         }
 
@@ -118,6 +145,7 @@ const LocationStyled = styled.section`
     grid-template-rows: 1fr;
     .gps {
       &__map {
+        height: 350px;
       }
     }
 
@@ -128,16 +156,20 @@ const LocationStyled = styled.section`
     }
 
     .data {
+      &__info {
+        padding: 10px;
+      }
     }
 
     .information {
-      padding: 20px;
+      padding: 10px;
     }
   }
 
   @media (min-width: 1024px) {
     .gps {
       &__map {
+        height: 400px;
       }
     }
 

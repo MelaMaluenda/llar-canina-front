@@ -3,7 +3,7 @@ import styled from "styled-components";
 const HeaderStyled = styled.header`
   .head {
     &__banner {
-      background-image: url("/images/SLC-2.jpg");
+      background-image: url("https://i.ibb.co/2g7XvNn/putxet-320.webp");
       background-size: cover;
       position: relative;
       height: 170px;
@@ -34,6 +34,7 @@ const HeaderStyled = styled.header`
     .head {
       &__banner {
         height: 220px;
+        background-image: url("https://i.ibb.co/QrW84S8/putxet-480.webp");
       }
       &__titular {
         top: 110px;
@@ -52,6 +53,7 @@ const HeaderStyled = styled.header`
     .head {
       &__banner {
         height: 350px;
+        background-image: url(" https://i.ibb.co/8DRy7gw/putxet-768.webp");
       }
       &__titular {
         top: 100px;
@@ -69,6 +71,7 @@ const HeaderStyled = styled.header`
     .head {
       &__banner {
         height: 400px;
+        background-image: url("https://i.ibb.co/Ch4GHXw/putxet-1440.webp");
       }
       &__titular {
         top: 110px;

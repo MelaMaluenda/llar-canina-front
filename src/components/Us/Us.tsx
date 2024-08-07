@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import UsStyled from "./UsStyled";
+import ResponsiveImage from "../ResponsiveImage/ResponsiveImage";
 
 const Us = (): React.ReactElement => {
   const { t } = useTranslation("translation");
@@ -7,22 +8,26 @@ const Us = (): React.ReactElement => {
   return (
     <UsStyled>
       <article className="us">
-        <img
+        <ResponsiveImage
           className="us__presentation us__left"
-          src="/images/elena.jpeg"
+          imgUrl={{
+            small: "https://i.ibb.co/ZJCr1GX/elena-320.webp",
+            medium: "https://i.ibb.co/CJ5nFWQ/elena-768.webp",
+            large: "https://i.ibb.co/Fx7Gksq/elena-1440.webp",
+          }}
           alt="Elena and a dog"
-          width="378"
-          height="504"
         />
       </article>
       <article className="info">
         <div className="info__title">
-          <img
+          <ResponsiveImage
             className="info__title--footprint"
-            src="/images/dog-footprint.webp"
+            imgUrl={{
+              small: "https://i.ibb.co/VmDmRdc/dog-footprint-320.webp",
+              medium: "https://i.ibb.co/G0FCTpg/dog-footprint-480.webp",
+              large: "https://i.ibb.co/G0FCTpg/dog-footprint-480.webp",
+            }}
             alt="A dog footprint"
-            width="54"
-            height="47"
           />
           <h2 className="info__title--label"> {t("us.title")}</h2>
         </div>
@@ -33,12 +38,14 @@ const Us = (): React.ReactElement => {
         </div>
       </article>
       <article className="us">
-        <img
+        <ResponsiveImage
           className="us__presentation us__right"
-          src="/images/elena3.jpeg"
+          imgUrl={{
+            small: "https://i.ibb.co/R2d4z4K/elena2-320.webp",
+            medium: "https://i.ibb.co/6Nm5Z31/elena2-768.webp",
+            large: "https://i.ibb.co/wLvSDF3/elena2-1440.webp",
+          }}
           alt="Elena and a dog"
-          width="378"
-          height="504"
         />
       </article>
     </UsStyled>
