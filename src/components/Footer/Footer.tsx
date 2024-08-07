@@ -40,6 +40,7 @@ const Footer = () => {
               />
             </a>
           </li>
+
           <li>
             <a href="mailto:info@llarcanina.cat">
               <ResponsiveImage
