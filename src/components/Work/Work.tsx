@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import WorkStyled from "./WorkStyled";
+import ResponsiveImage from "../ResponsiveImage/ResponsiveImage";
 
 const Work = (): React.ReactElement => {
   const { t } = useTranslation("translation");
@@ -8,12 +9,15 @@ const Work = (): React.ReactElement => {
   return (
     <WorkStyled>
       <div className="icon">
-        <img
-          src="/images/icon-house2.webp"
+        <ResponsiveImage
+          className="card__icon"
+          imgUrl={{
+            small: "https://i.ibb.co/K25LrYg/i-alojamiento-320.webp",
+            medium: "https://i.ibb.co/t44g2WQ/i-alojamiento-480.webp",
+            large: "https://i.ibb.co/MpTkWjy/i-alojamiento-768.webp",
+            xlarge: "https://i.ibb.co/v3KdLY2/i-alojamiento-1024.webp",
+          }}
           alt="A house icon"
-          className="icon__image"
-          width="329"
-          height="290"
         />
       </div>
       <article className="work">
