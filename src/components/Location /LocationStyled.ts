@@ -169,7 +169,7 @@ const LocationStyled = styled.section`
   @media (min-width: 1024px) {
     .gps {
       &__map {
-        height: 400px;
+        height: 410px;
       }
     }
 
@@ -196,6 +196,14 @@ const LocationStyled = styled.section`
           &--text {
           }
         }
+      }
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .gps {
+      &__map {
+        height: 400px;
       }
     }
   }

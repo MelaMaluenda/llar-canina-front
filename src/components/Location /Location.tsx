@@ -97,10 +97,10 @@ const Location = (): React.ReactElement => {
           <ResponsiveImage
             className="gps__map"
             imgUrl={{
-              small: "https://i.ibb.co/23cjbpc/map-320.webp",
-              medium: "https://i.ibb.co/KFBj0vP/map-480.webp",
-              large: "https://i.ibb.co/GTKYgmx/map-1024.webp",
-              xlarge: "https://i.ibb.co/y5HB1wH/map-1440.webp",
+              small: "https://i.ibb.co/Lh4CCQ7/maps-original.webp",
+              medium: "https://i.ibb.co/Lh4CCQ7/maps-original.webp",
+              large: "https://i.ibb.co/Lh4CCQ7/maps-original.webp",
+              xlarge: "https://i.ibb.co/Lh4CCQ7/maps-original.webp",
             }}
             alt="Map"
           />
