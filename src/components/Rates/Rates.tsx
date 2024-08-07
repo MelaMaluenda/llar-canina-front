@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import RatesStyled from "./RatesStyled";
+import ResponsiveImage from "../ResponsiveImage/ResponsiveImage";
 
 const Rates: React.FC = () => {
   const { t } = useTranslation("translation");
@@ -15,12 +16,15 @@ const Rates: React.FC = () => {
             <p className="content__description">
               {t("rates.hourPriceDescription")}
             </p>
-            <img
+            <ResponsiveImage
               className="content__image"
-              src="/images/lira.jpeg"
+              imgUrl={{
+                small: "https://i.ibb.co/9gQKc4h/lyra-320.webp",
+                medium: "https://i.ibb.co/jvNCfQ3/lyra-1024.webp",
+                large: "https://i.ibb.co/jvNCfQ3/lyra-1024.webp",
+                xlarge: "https://i.ibb.co/thtGjJ7/lyra-1440.webp",
+              }}
               alt="White dog"
-              width="320"
-              height="290"
             />
           </div>
         </article>
@@ -30,12 +34,15 @@ const Rates: React.FC = () => {
             <p className="content__description">
               {t("rates.bonusPriceDescription")}
             </p>
-            <img
+            <ResponsiveImage
               className="content__image"
-              src="/images/rumbo.jpg"
+              imgUrl={{
+                small: "https://i.ibb.co/68kwGbg/rumbo-320.webp",
+                medium: "https://i.ibb.co/PmGryKX/rumbo-1024.webp",
+                large: "https://i.ibb.co/PmGryKX/rumbo-1024.webp",
+                xlarge: "https://i.ibb.co/3fS4fxq/rumbo-1440.webp",
+              }}
               alt="Black dog"
-              width="320"
-              height="290"
             />
           </div>
         </article>
