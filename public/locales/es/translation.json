@@ -7,7 +7,9 @@
   "navigation": {
     "services": "SERVICIOS",
     "rates": "TARIFAS",
-    "contact": "CONTACTO"
+    "contact": "CONTACTO",
+    "cat": "CAT",
+    "es": "ESP"
   },
 
   "services": {
@@ -77,7 +79,7 @@
 
   "form": {
     "reservationTitle": "Formulario de reserva",
-    "reservationDescription": "Ofrece a tu perro un espacio seguro y divertido donde pasar el día. En nuestra guardería, combinamos la tranquilidad de un ambiente familiar con actividades lúdicas para que tu peludo disfrute al máximo. ¡Completa el formulario y reserva su plaza! En menos de 72 horas te confirmaremos la reserva y te informaremos de todos los detalles.",
+    "reservationDescription": "Ofrece a tu perro un espacio seguro y divertido donde pasar el día. En nuestra guardería, combinamos la tranquilidad de un ambiente familiar con actividades lúdicas para que tu peludo disfrute al máximo. ¡Completa el formulario y reserva su plaza! En menos de 48 horas te confirmaremos la reserva y te informaremos de todos los detalles.",
     "humanName": "*Nombre y apellido:",
     "dogName": "*Nombre de tu perro:",
     "dogSize": "*Tamaño de tu perro",
@@ -95,11 +97,13 @@
     "yes": "Sí",
     "no": "No",
     "hasBono": "¿Dispones de bono?",
-    "aboutDog": "Conociendo a tu perro:",
+    "aboutDog": "Háblanos de tu perro:",
     "aboutDogPlaceholder": "Cuéntanos sobre tu perro y sus necesidades, ¡queremos conocerlo!",
     "submit": "Enviar",
-    "successMessage": "Hemos recibido tu solicitud con éxito, en 24h-72h contactaremos para darte una respuesta. En el caso que se trate de una urgencia, es preferible que nos llames.",
-    "errorMessage": "Ha habido un problema al intentar enviar el formulario. Por favor, intenta de nuevo."
+    "successMessage": "Hemos recibido tu solicitud con éxito, en menos de 48h contactaremos para darte una respuesta. En el caso que se trate de una urgencia, es preferible que nos llames.",
+    "errorMessage": "Ha habido un problema al intentar enviar el formulario. Por favor, intenta de nuevo.",
+    "terms1": "Acepto los",
+    "terms2": "términos y condiciones"
   },
 
   "rates": {
@@ -133,5 +137,53 @@
     "cardDescription3": "Cada perro es único, y entendemos que algunos necesitan cuidados especiales. Si tu perro necesita una comida específica durante su estancia, no te preocupes: ¡nosotros nos encargamos! Solo necesitas traernos su comida y nosotros nos aseguramos de que la reciba a su hora. Lo mismo aplica si tu peludo necesita medicación o algún tratamiento; estamos aquí para ayudar y asegurarnos de que reciba todo lo que necesita.",
     "cardTitle4": "Descuentos",
     "cardDescription4": "Sabemos lo que significa ser una familia perruna. Si traes a más de un perro, te ofrecemos un 10% de descuento en nuestros servicios. ¡Queremos que todos tus peludos disfruten de su tiempo con nosotros!"
+  },
+
+  "cookies": {
+    "title": "Gestor de Cookies",
+    "message1": "Sabemos que gestionar los premios con tu peludo puede ser todo un reto.",
+    "message2": "Nosotros también usamos 'chuches' (cookies) para mejorar tu experiencia en nuestra web, mostrarte contenido personalizado y analizar el tráfico.",
+    "message3": "¡Elige la opción con la que te sientas más cómodo y, si tienes un momento, echa un vistazo a nuestra",
+    "span": "política de cookies!",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
+  },
+
+  "cookiesPolicy": {
+    "title": "Política de Cookies",
+    "intro1": "El acceso a este Sitio Web puede implicar la utilización de cookies. Las cookies son pequeñas cantidades de información que se almacenan en el navegador utilizado por cada Usuario —en los distintos dispositivos que pueda utilizar para navegar— para que el servidor recuerde cierta información que posteriormente y únicamente el servidor que la implementó leerá. Las cookies facilitan la navegación, la hacen más amigable, y no dañan el dispositivo de navegación.",
+    "intro2": "Las cookies son procedimientos automáticos de recogida de información relativa a las preferencias determinadas por el Usuario durante su visita al Sitio Web con el fin de reconocerlo como Usuario, y personalizar su experiencia y el uso del Sitio Web, y pueden también, por ejemplo, ayudar a identificar y resolver errores.",
+    "intro3": "La información recabada a través de las cookies puede incluir la fecha y hora de visitas al Sitio Web, las páginas visionadas, el tiempo que ha estado en el Sitio Web y los sitios visitados justo antes y después del mismo. Sin embargo, ninguna cookie permite que esta misma pueda contactarse con el número de teléfono del Usuario o con cualquier otro medio de contacto personal. Ninguna cookie puede extraer información del disco duro del Usuario o robar información personal. La única manera de que la información privada del Usuario forme parte del archivo Cookie es que el usuario dé personalmente esa información al servidor.",
+    "intro4": "Las cookies que permiten identificar a una persona se consideran datos personales. Por tanto, a las mismas les será de aplicación la Política de Privacidad anteriormente descrita. En este sentido, para la utilización de las mismas será necesario el consentimiento del Usuario. Este consentimiento será comunicado, en base a una elección auténtica, ofrecido mediante una decisión afirmativa y positiva, antes del tratamiento inicial, removible y documentado.",
+    "ownCookiesTitle": "Cookies propias",
+    "ownCookiesContent": "Son aquellas cookies que son enviadas al ordenador o dispositivo del Usuario y gestionadas exclusivamente por Llar Canina para el mejor funcionamiento del Sitio Web. La información que se recaba se emplea para mejorar la calidad del Sitio Web y su Contenido y su experiencia como Usuario. Estas cookies permiten reconocer al Usuario como visitante recurrente del Sitio Web y adaptar el contenido para ofrecerle contenidos que se ajusten a sus preferencias.",
+    "thirdPartyCookiesTitle": "Cookies de terceros",
+    "thirdPartyCookiesContent": "Son cookies utilizadas y gestionadas por entidades externas que proporcionan a Llar Canina servicios solicitados por este mismo para mejorar el Sitio Web y la experiencia del usuario al navegar en el Sitio Web. Los principales objetivos para los que se utilizan cookies de terceros son la obtención de estadísticas de accesos y analizar la información de la navegación, es decir, cómo interactúa el Usuario con el Sitio Web.",
+    "thirdPartyCookiesContent2": "La información que se obtiene se refiere, por ejemplo, al número de páginas visitadas, el idioma, el lugar a la que la dirección IP desde el que accede el Usuario, el número de Usuarios que acceden, la frecuencia y reincidencia de las visitas, el tiempo de visita, el navegador que usan, el operador o tipo de dispositivo desde el que se realiza la visita. Esta información se utiliza para mejorar el Sitio Web, y detectar nuevas necesidades para ofrecer a los Usuarios un Contenido y/o servicio de óptima calidad. En todo caso, la información se recopila de forma anónima y se elaboran informes de tendencias del Sitio Web sin identificar a usuarios individuales.",
+    "moreInfo": "Puede obtener más información sobre las cookies, la información sobre la privacidad, o consultar la descripción del tipo de cookies que se utiliza, sus principales características, periodo de expiración, etc. en el siguiente(s) enlace(s):",
+    "googleAnalytics": "Google Analytics",
+    "socialCookiesTitle": "Cookies de redes sociales",
+    "socialCookiesContent": "Llar Canina incorpora plugins de redes sociales, que permiten acceder a las mismas a partir del Sitio Web. Por esta razón, las cookies de redes sociales pueden almacenarse en el navegador del Usuario. Los titulares de dichas redes sociales disponen de sus propias políticas de protección de datos y de cookies, siendo ellos mismos, en cada caso, responsables de sus propios ficheros y de sus propias prácticas de privacidad. El Usuario debe referirse a las mismas para informarse acerca de dichas cookies y, en su caso, del tratamiento de sus datos personales. Únicamente a título informativo se indican a continuación los enlaces en los que se pueden consultar dichas políticas de privacidad y/o de cookies:",
+    "instagram": "Instagram:  https://help.instagram.com/1896641480634370?ref=ig",
+    "browserCookies": "El Usuario puede deshabilitar, rechazar y eliminar las cookies —total o parcialmente— instaladas en su dispositivo mediante la configuración de su navegador (entre los que se encuentran, por ejemplo, Chrome, Firefox, Safari, Explorer). En este sentido, los procedimientos para rechazar y eliminar las cookies pueden diferir de un navegador de Internet a otro. En consecuencia, el Usuario debe acudir a las instrucciones facilitadas por el propio navegador de Internet que esté utilizando. En el supuesto de que rechace el uso de cookies —total o parcialmente— podrá seguir usando el Sitio Web, si bien podrá tener limitada la utilización de algunas de las prestaciones del mismo.",
+    "creationDate": "Este documento de Política de Cookies ha sido creado mediante el generador de plantilla de política de cookies web gratis online el día 07/08/2024."
+  },
+
+  "terms": {
+    "title": "Condiciones Generales de Acceso y Uso del Sitio Web www.llarcanina.cat",
+    "description": "El sitio web www.llarcanina.cat es propiedad de Leocadio González Méndez (en adelante, Llar Canina), con domicilio a efectos de notificaciones en Homer, 42, 08023, Barcelona, NIF núm. 33929133Q y dirección de correo electrónico leojgm22@gmail.com, y a través del mismo se proporciona información sobre sus actividades.\n\nLlar Canina está adherido a los siguientes códigos de conducta: https://www.boe.es/buscar/doc.php?id=BOE-A-2023-7936. Estos códigos pueden consultarse en https://www.boe.es/contactar/\n\nEl acceso y uso del sitio web atribuye al que lo realiza la condición de “Usuario” e implica la aceptación íntegra, expresa y sin reservas de las presentes condiciones generales, vigentes en el momento del acceso. Si el usuario no comprendiera en su totalidad las presentes condiciones de uso o no estuviera de acuerdo con las mismas, deberá abstenerse de utilizar y operar a través de este sitio web.\n\nLas presentes condiciones generales rigen única y exclusivamente el uso del sitio web de Llar Canina por parte de los usuarios que accedan y/o naveguen por www.llarcanina.cat. Las presentes condiciones generales se exponen en el sitio web www.llarcanina.cat, para que los usuarios puedan leerlas, imprimirlas y archivarlas.",
+    "section1title": "Primera.- Condiciones de Acceso y Uso",
+    "section1content": "La utilización del sitio web de Llar Canina es gratuita y no requiere el previo registro del usuario. En aquellos casos que el acceso y/o uso de determinados servicios y/o contenidos requiriesen el registro o suscripción de los usuarios, será necesario que éstos acepten previamente la correspondiente Política de Privacidad y las Condiciones Generales específicas, no siendo posible el acceso a los mismos sin dicha aceptación.\n\nLas condiciones de acceso y uso del presente sitio web se rigen estrictamente por la legalidad vigente y por el principio de buena fe, comprometiéndose el usuario a realizar un buen uso de la web. Quedan prohibidos todos los actos que vulneren derechos o intereses de terceros (derecho a la intimidad, protección de datos, propiedad intelectual, etc.), o la normativa vigente.\n\nLlar Canina prohíbe expresamente:\n- Realizar acciones que puedan producir en el sitio web o a través del mismo, por cualquier medio, cualquier tipo de daño a los sistemas de Llar Canina o a terceros.\n- Realizar sin la debida autorización cualquier tipo de publicidad o información comercial directamente o de forma encubierta, el envío de correos masivos (\"spamming\") o envío de grandes mensajes con el fin de bloquear servidores de la red (\"mail bombing\").\n\nEl usuario se compromete a no utilizar el sitio web, ni los contenidos o información y/o los servicios que se ofrecen en el mismo para la realización de actividades contrarias a la ley y a respetar en todo momento las presentes condiciones generales.\n\nLlar Canina podrá interrumpir en cualquier momento el acceso a su sitio web si detecta un uso contrario a la legalidad, la buena fe o a las presentes condiciones generales.",
+    "section2title": "Segunda.- Contenidos",
+    "section2content": "Los contenidos incorporados en este sitio web han sido elaborados e incluidos por Llar Canina, utilizando fuentes internas y externas, de tal modo que Llar Canina únicamente se hace responsable por los contenidos elaborados de forma interna.\n\nLlar Canina se reserva el derecho a modificar en cualquier momento los contenidos existentes en su sitio web. Llar Canina no asegura ni se responsabiliza del correcto funcionamiento de los enlaces a sitios web de terceros que figuren en el sitio web.\n\nAdemás, a través del sitio web www.llarcanina.cat, pueden ponerse a disposición de los usuarios, servicios gratuitos y/o de pago ofrecidos por terceros ajenos, los cuáles se regirán por las condiciones particulares de dichos servicios. Llar Canina no garantiza en ningún caso la veracidad, exactitud o actualidad de los contenidos y servicios ofrecidos por terceros y queda expresamente exonerado de cualquier tipo de responsabilidad por los daños y perjuicios que puedan derivarse de la falta de exactitud de estos contenidos y servicios.",
+    "section3title": "Tercera.- Responsabilidad",
+    "section3content": "Llar Canina en ningún caso será responsable de:\n- Los fallos e incidencias que pudieran producirse en las comunicaciones, borrado o transmisiones incompletas de manera que no se garantiza que los servicios del sitio web estén constantemente operativos.\n- De la producción de cualquier tipo de daño que los usuarios o terceros pudiesen ocasionar en el sitio web.\n- De la fiabilidad y veracidad de las informaciones introducidas por terceros en el sitio web, bien directamente, bien a través de enlaces o links.\n\nLlar Canina se reserva el derecho a suspender el acceso sin previo aviso de forma discrecional y con carácter definitivo o temporal hasta el aseguramiento de la efectiva responsabilidad de los daños que pudieran producirse.\n\nLlar Canina colaborará y notificará a la autoridad competente las incidencias anteriormente indicadas en el momento en que tenga conocimiento fehaciente de que los daños ocasionados constituyan cualquier tipo de actividad ilícita.",
+    "section4title": "Cuarta.- Derechos de Autor",
+    "section4content": "Los contenidos propios, la programación y el diseño del sitio web www.llarcanina.cat se encuentra plenamente protegido por los derechos de autor, quedando expresamente prohibida toda reproducción, comunicación, distribución y transformación de los referidos elementos protegidos, salvo consentimiento expreso de Llar Canina.\n\nLlar Canina puede utilizar fuentes externas para la elaboración de sus contenidos y establecer links o hiperenlaces a artículos o informaciones de terceros citando siempre la fuente. El legítimo titular de los derechos de autor de las informaciones así incluidas podrá solicitar en cualquier momento la eliminación de los referidos contenidos.\n\nLos materiales tanto gráficos como escritos enviados por los usuarios a través de los medios que se ponen a su disposición en el sitio web son propiedad del usuario, quien afirma al enviarlos su legítima autoría y cede los derechos de reproducción y distribución al Llar Canina.",
+    "section5title": "Quinta.- Jurisdicción y Ley Aplicable",
+    "section5content": "Las presentes condiciones generales se rigen por la legislación española. Son competentes para resolver toda controversia o conflicto que se derive de las presentes condiciones generales los Juzgados de Jutjats de Barcelona, renunciando expresamente el usuario a cualquier otro fuero que pudiera corresponderle.",
+    "section6title": "Sexta.- Miscelánea",
+    "section6content": "La declaración de nulidad de alguna o algunas de las cláusulas de estas Condiciones no perjudica la validez de las restantes, que permanecerán vigentes. Llar Canina podrá no ejercitar alguno de los derechos y facultades conferidos en este documento estas Condiciones lo que no implicará en ningún caso la renuncia a los mismos, salvo reconocimiento expreso por parte de Llar Canina. Estas Condiciones Generales podrán ser modificadas por Llar Canina cuando así lo considere oportuno. La modificación surtirá efectos desde el día siguiente a la fecha de su publicación.",
+    "date": "Fecha de publicación: Agosto 2024"
   }
 }

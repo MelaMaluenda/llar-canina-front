@@ -53,6 +53,7 @@ const ReservationFormStyled = styled.section`
     &__textarea {
       height: 150px;
       resize: none;
+      padding: 10px;
     }
 
     &__input--half {
@@ -70,6 +71,37 @@ const ReservationFormStyled = styled.section`
       flex-direction: row;
       align-items: center;
       gap: 10px;
+    }
+
+    &__checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    &__checkbox {
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    &__checkbox-label {
+      font-size: 14px;
+      color: ${({ theme }) => theme.colors.darkBlueBackground};
+      font-family: ${({ theme }) => theme.typography.mainFontFamily};
+      cursor: pointer;
+
+      .terms__link {
+        color: ${({ theme }) => theme.colors.darkGreenBackground};
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover {
+          color: ${({ theme }) => theme.colors.lightButton};
+        }
+      }
     }
 
     &__button {

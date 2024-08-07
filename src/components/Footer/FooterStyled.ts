@@ -17,9 +17,10 @@ const FooterStyled = styled.footer`
       display: flex;
       flex-direction: row;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: center;
       list-style: none;
       padding: 0;
+      gap: 20px;
 
       &-item {
         margin: 5px 0;
@@ -61,6 +62,7 @@ const FooterStyled = styled.footer`
 
       &__menu {
         font-size: 15px;
+        gap: 20px;
       }
     }
   }
@@ -87,6 +89,7 @@ const FooterStyled = styled.footer`
       &__menu {
         gap: 40px;
         flex-direction: row;
+        justify-content: space-evenly;
       }
     }
   }

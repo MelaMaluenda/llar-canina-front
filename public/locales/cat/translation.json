@@ -7,7 +7,9 @@
   "navigation": {
     "services": "SERVEIS",
     "rates": "TARIFES",
-    "contact": "CONTACTE"
+    "contact": "CONTACTE",
+    "cat": "CAT",
+    "es": "ESP"
   },
 
   "services": {
@@ -77,7 +79,7 @@
 
   "form": {
     "reservationTitle": "Formulari de reserva",
-    "reservationDescription": "Ofereix al teu gos un espai segur i divertit on passar el dia. A la nostra guarderia, combinem la tranquil·litat d'un ambient familiar amb activitats lúdiques per a que el teu pelut gaudeixi al màxim. Completa el formulari i reserva la seva plaça! En menys de 72 hores et confirmarem la reserva i t'informarem de tots els detalls.",
+    "reservationDescription": "Ofereix al teu gos un espai segur i divertit on passar el dia. A la nostra guarderia, combinem la tranquil·litat d'un ambient familiar amb activitats lúdiques per a que el teu pelut gaudeixi al màxim. Completa el formulari i reserva la seva plaça! En menys de 48 hores et confirmarem la reserva i t'informarem de tots els detalls.",
     "humanName": "*Nom i cognom:",
     "dogName": "*Nom del teu gos:",
     "dogSize": "*Mida del teu gos",
@@ -95,11 +97,13 @@
     "yes": "Sí",
     "no": "No",
     "hasBono": "Disposes de abonaments?",
-    "aboutDog": "Coneixent el teu gos:",
+    "aboutDog": "Parla'ns del teu gos:",
     "aboutDogPlaceholder": "Explica'ns sobre el teu gos i les seves necessitats, volem conèixer-lo!",
     "submit": "Enviar",
-    "successMessage": "Hem rebut la teva sol·licitud amb èxit, a 24h-72h contactarem per donar-te una resposta. En cas que es tracti d'una urgència, és preferible que ens truquis.",
-    "errorMessage": "Hi ha hagut un problema en intentar enviar el formulari. Si us plau, intenta de nou."
+    "successMessage": "Hem rebut la teva sol·licitud amb èxit, en menys de 48h contactarem per donar-te una resposta. En cas que es tracti d'una urgència, és preferible que ens truquis.",
+    "errorMessage": "Hi ha hagut un problema en intentar enviar el formulari. Si us plau, intenta de nou.",
+    "terms1": "Accepto els",
+    "terms2": "termes i condicions"
   },
 
   "rates": {
@@ -133,5 +137,53 @@
     "cardDescription3": "Cada gos és únic, i entenem que alguns necessiten cures especials. Si el teu gos necessita un menjar específic durant la seva estada, no et preocupis: nosaltres ens encarreguem! Només necessites portar-nos el menjar i nosaltres ens assegurem que el rebi a la seva hora. El mateix aplica si el teu pelut necessita medicació o algun tractament",
     "cardTitle4": "Descomptes",
     "cardDescription4": "Sabem què vol dir ser una família gossa. Si portes més d'un gos, t'oferim un 10% de descompte als nostres serveis. Volem que tots els teus peluts gaudeixin del seu temps amb nosaltres! "
+  },
+
+  "cookies": {
+    "title": "Gestor de Cookies",
+    "message1": "Sabem que gestionar els premis amb el teu pelut pot ser tot un repte.",
+    "message2": "Nosaltres també fem servir 'galetes' (cookies) per millorar la teva experiència a la nostra web, mostrar contingut personalitzat i analitzar el trànsit.",
+    "message3": "Escull l'opció amb què et sentis més còmode i, si tens un moment, dona una ullada a la nostra",
+    "span": "política de cookies!",
+    "accept": "Acceptar",
+    "reject": "Rebutjar"
+  },
+
+  "cookiesPolicy": {
+    "title": "Política de Cookies",
+    "intro1": "L'accés a aquest Lloc Web pot implicar la utilització de cookies. Les cookies són petites quantitats d'informació que s'emmagatzemen al navegador utilitzat per cada Usuari -en els diferents dispositius que pugui utilitzar per navegar- perquè el servidor recordeu certa informació que posteriorment i únicament el servidor que la va implementar llegirà. Les cookies faciliten la navegació, la fan més amigable, i no fan malbé el dispositiu de navegació.",
+    "intro2": "Les cookies són procediments automàtics de recollida d'informació relativa a les preferències determinades per l'Usuari durant la visita al Lloc Web per tal de reconèixer-lo com a Usuari, i personalitzar la seva experiència i l'ús del Lloc Web, i poden també , per exemple, ajudar a identificar i resoldre errors.",
+    "intro3": "La informació recollida a través de les galetes pot incloure la data i hora de visites al Lloc Web, les pàgines visionades, el temps que ha estat al Lloc Web i els llocs visitats just abans i després. però, cap galeta permet que aquesta mateixa pugui contactar amb el número de telèfon de l'usuari o amb qualsevol altre mitjà de contacte personal. Cap galeta no pot extreure informació del disc dur de l'usuari o robar informació personal. Usuari formi part del fitxer Cookie és que l'usuari doni personalment aquesta informació al servidor.",
+    "intro4": "Les galetes que permeten identificar una persona es consideren dades personals. Per tant, a les mateixes els serà d'aplicació la Política de Privadesa anteriorment descrita. En aquest sentit, per a la utilització de les mateixes serà necessari el consentiment del Usuari. Aquest consentiment serà comunicat, en base a una elecció autèntica, ofert mitjançant una decisió afirmativa i positiva, abans del tractament inicial, removible i documentat.",
+    "ownCookiesTitle": "Cookies pròpies",
+    "ownCookiesContent": "Són aquelles cookies que són enviades a l'ordinador o dispositiu de l'Usuari i gestionades exclusivament per Llar Canina per al millor funcionament del Lloc Web. La informació que es recull s'empra per millorar la qualitat del Lloc Web i el seu Contingut i el seu experiència com a Usuari. Aquestes cookies permeten reconèixer a l'Usuari com a visitant recurrent del Lloc Web i adaptar el contingut per oferir continguts que s'ajustin a les seves preferències.",
+    "thirdPartyCookiesTitle": "Cookies de tercers",
+    "thirdPartyCookiesContent": "Són cookies utilitzades i gestionades per entitats externes que proporcionen a Llar Canina serveis sol·licitats per aquest mateix per millorar el Lloc Web i l'experiència de l'usuari en navegar al Lloc Web. Els principals objectius per als quals s'utilitzen cookies de tercers són l'obtenció d'estadístiques d'accessos i analitzar la informació de la navegació, és a dir, com interactua l'usuari amb el lloc web.",
+    "thirdPartyCookiesContent2": "La informació que s'obté es refereix, per exemple, al nombre de pàgines visitades, l'idioma, el lloc on l'adreça IP des del qual accedeix l'Usuari, el nombre d'Usuaris que hi accedeixen, la freqüència i reincidència de les visites, el temps de visita, el navegador que usen, l'operador o tipus de dispositiu des del qual es fa la visita. Aquesta informació s'utilitza per millorar el Lloc Web, i detectar noves necessitats per oferir als Usuaris un Contingut i/o servei d'òptima qualitat. En tot cas, la informació es recopila de forma anònima i s'elaboren informes de tendències del Lloc Web sense identificar usuaris individuals.",
+    "moreInfo": "Podeu obtenir més informació sobre les cookies, la informació sobre la privadesa, o consultar la descripció del tipus de cookies que s'utilitza, les seves principals característiques, període d'expiració, etc. al següent(s) enllaç(s) ):",
+    "googleAnalytics": "Google Analytics",
+    "socialCookiesTitle": "Cookies de xarxes socials",
+    "socialCookiesContent": "Llar Canina incorpora plugins de xarxes socials, que permeten accedir-hi a partir del Lloc Web. Per aquesta raó, les cookies de xarxes socials poden emmagatzemar-se al navegador de l'Usuari. Els titulars d'aquestes xarxes socials disposen de les seves pròpies polítiques de protecció de dades i de cookies, essent ells mateixos, en cada cas, responsables dels seus propis fitxers i de les seves pròpies pràctiques de privadesa. , del tractament de les vostres dades personals. Únicament a títol informatiu s'indiquen a continuació els enllaços en què es poden consultar aquestes polítiques de privadesa i/o de cookies:",
+    "instagram": "Instagram: https://help.instagram.com/1896641480634370?ref=ig",
+    "browserCookies": "L'Usuari pot deshabilitar, rebutjar i eliminar les cookies —totalment o parcialment— instal·lades al dispositiu mitjançant la configuració del vostre navegador (entre els quals es troben, per exemple, Chrome, Firefox, Safari, Explorer). En aquest sentit, els procediments per rebutjar i eliminar les galetes poden diferir d'un navegador d'Internet a un altre. de cookies -total o parcialment- podrà seguir usant el Lloc Web, si bé podrà tenir limitada la utilització d'algunes de les prestacions del mateix.",
+    "creationDate": "Aquest document de Política de Cookies ha estat creat mitjançant el generador de plantilla de política de galetes web gratis online el dia 07/08/2024."
+  },
+
+  "terms": {
+    "title": "Condicions Generals d'Accés i Ús del Lloc Web www.llarcanina.cat",
+    "description": "El lloc web www.llarcanina.cat és propietat de Leocadio González Méndez (d'ara endavant, Llar Canina), amb domicili a efectes de notificacions a Homer, 42, 08023, Barcelona, ​​NIF núm. 33929133Q i adreça de correu electrònic leojgm22@gmail.com, ia través del mateix es proporciona informació sobre les seves activitats.\n\nLlar Canina està adherit als codis de conducta següents: https://www.boe.es/buscar/doc.php?id= BOE-A-2023-7936. Aquests codis es poden consultar a https://www.boe.es/contactar/\n\nL'accés i ús del lloc web atribueix al que el realitza la condició d'“Usuari” i implica l'acceptació íntegra, expressa i sense reserves de les presents condicions generals, vigents en el moment de l'accés. operar a través d'aquest lloc web.\n\nLes presents condicions generals regeixen única i exclusivament l'ús del lloc web de Llar Canina per part dels usuaris que hi accedeixin i/o naveguin per www.llarcanina.cat. Aquestes condicions generals s'exposen al lloc web www.llarcanina.cat, perquè els usuaris puguin llegir-les, imprimir-les i arxivar-les.",
+    "section1title": "Primera.- Condicions d'Accés i Ús",
+    "section1content": "La utilització del lloc web de Llar Canina és gratuïta i no requereix el registre previ de l'usuari. En aquells casos que l'accés i/o ús de determinats serveis i/o continguts requerissin el registre o subscripció dels usuaris, serà necessari que aquests acceptin prèviament la corresponent Política de Privadesa i les Condicions Generals específiques, no sent possible l'accés als mateixos sense aquesta acceptació.\n\nLes condicions d'accés i ús del present lloc web es regeixen estrictament per la legalitat vigent i pel principi de bona fe, l'usuari es compromet a fer un bon ús de la web. Queden prohibits tots els actes que vulnerin drets o interessos de tercers (dret a la intimitat, protecció de dades, propietat intel·lectual, etc.), o la normativa vigent.\n\nLlar Canina prohibeix expressament:\n- Realitzar accions que puguin produir al lloc web oa través del mateix, per qualsevol mitjà, qualsevol tipus de dany als sistemes de Llar Canina oa tercers.\n- Realitzar sense la deguda autorització qualsevol tipus de publicitat o informació comercial directament o de forma encoberta, l'enviament de correus massius (\"spamming\") o enviament de grans missatges per tal de bloquejar servidors de la xarxa (\"mail bombing\") .\n\nL'usuari es compromet a no utilitzar el lloc web, ni els continguts o informació i/o els serveis que s'hi ofereixen per a la realització d'activitats contràries a la llei ia respectar en tot moment les presents condicions generals. \n\nLlar Canina podrà interrompre en qualsevol moment l'accés al vostre lloc web si detecta un ús contrari a la legalitat, la bona fe oa les presents condicions generals.",
+    "section2title": "Segona.- Continguts",
+    "section2content": "Els continguts incorporats en aquest lloc web han estat elaborats i inclosos per Llar Canina, utilitzant fonts internes i externes, de manera que Llar Canina únicament es fa responsable pels continguts elaborats de forma interna.\n\nLlar Canina es reserva el dret a modificar en qualsevol moment els continguts existents al seu lloc web. Llar Canina no assegura ni es responsabilitza del correcte funcionament dels enllaços a llocs web de tercers que figurin al lloc web.\n\nA més, a través del lloc web www.llarcanina.cat, poden posar-se a disposició dels usuaris, serveis gratuïts i/o de pagament oferts per tercers aliens, els quals es regiran per les condicions particulars dels serveis Llar Canina no garanteix en cap cas la veracitat, exactitud o actualitat dels continguts i serveis oferts per tercers i queda expressament exonerat de qualsevol tipus de responsabilitat pels danys i perjudicis que es puguin derivar de la manca d'exactitud d'aquests continguts i serveis.",
+    "section3title": "Tercera.- Responsabilitat",
+    "section3content": "Llar Canina en cap cas serà responsable de:\n- Les fallades i incidències que poguessin produir-se en les comunicacions, esborrament o transmissions incompletes de manera que no es garanteix que els serveis del lloc web estiguin constantment operatius.\n - De la producció de qualsevol tipus de dany que els usuaris o tercers poguessin ocasionar al lloc web.\n- De la fiabilitat i veracitat de les informacions introduïdes per tercers al lloc web, bé directament, bé mitjançant enllaços o links .\n\nLlar Canina es reserva el dret a suspendre l'accés sense previ avís de forma discrecional i amb caràcter definitiu o temporal fins a l'assegurament de l'efectiva responsabilitat dels danys que es puguin produir.\n\nLlar Canina col·laborarà i notificarà a la autoritat competent les incidències anteriorment indicades en el moment en què tingui coneixement fefaent que els danys ocasionats constitueixin qualsevol tipus dactivitat il·lícita.",
+    "section4title": "Quarta.- Drets d'Autor",
+    "section4content": "Els continguts propis, la programació i el disseny del lloc web www.llarcanina.cat es troba plenament protegit pels drets d'autor, i queda expressament prohibida tota reproducció, comunicació, distribució i transformació dels referits elements protegits, excepte consentiment exprés de Llar Canina.\n\nLlar Canina pot utilitzar fonts externes per a l'elaboració dels seus continguts i establir links o hiperenllaços a articles o informacions de tercers citant sempre la font El legítim titular dels drets d'autor de les informacions així incloses. podrà sol·licitar en qualsevol moment l'eliminació dels continguts esmentats. legítima autoria i cedeix els drets de reproducció i distribució al Llar Canina.",
+    "section5title": "Cinquena.- Jurisdicció i Llei Aplicable",
+    "section5content": "Les presents condicions generals es regeixen per la legislació espanyola. Són competents per resoldre tota controvèrsia o conflicte que es derivi de les presents condicions generals els Jutjats de Jutjats de Barcelona, ​​renunciant expressament l'usuari a qualsevol altre fur que pogués correspondre-li .",
+    "section6title": "Sexta.- Miscel·lània",
+    "section6content": "La declaració de nul·litat d'alguna o algunes de les clàusules d'aquestes Condicions no perjudica la validesa de les restants, que romandran vigents. Llar Canina podrà no exercitar algun dels drets i facultats conferits en aquest document aquestes Condicions el que no implicarà en cap cas la renúncia a aquests, excepte reconeixement exprés per part de Llar Canina. ",
+    "date": "Data de publicació: Agost 2024"
   }
 }

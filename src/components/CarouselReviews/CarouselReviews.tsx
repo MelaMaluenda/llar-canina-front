@@ -31,6 +31,18 @@ const CarouselReviews: React.FC<CarouselReviewsProps> = ({ reviews }) => {
     setChunks(getChunks());
   }, [getChunks]);
 
+  // Event listener para actualizar chunks al cambiar el tamaño de la pantalla
+  useEffect(() => {
+    const handleResize = () => {
+      setChunks(getChunks());
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [getChunks]);
+
   return (
     <Carousel
       navButtonsAlwaysVisible
