@@ -6,7 +6,7 @@ export const CarouselVisitorsStyled = styled(Paper)`
   margin: auto;
   text-align: center;
 
-  img {
+  .carousel-image {
     width: 100%;
     height: 434px;
     object-fit: cover;
@@ -30,15 +30,15 @@ export const StyledItemGroup = styled.div`
 
     @media (max-width: 480px) {
       flex: 0 0 100%;
-      img {
+      .carousel-image {
         width: 90%;
-        height: 350px;
+        height: 350px; /* Altura específica para esta pantalla */
       }
     }
 
     @media (min-width: 481px) and (max-width: 768px) {
       flex: 0 0 calc(50% - 10px);
-      img {
+      .carousel-image {
         width: 95%;
         height: 350px;
       }
@@ -46,8 +46,7 @@ export const StyledItemGroup = styled.div`
 
     @media (min-width: 769px) and (max-width: 1024px) {
       flex: 0 0 calc(33.33% - 10px);
-
-      img {
+      .carousel-image {
         width: 95%;
         height: 350px;
       }
@@ -55,7 +54,7 @@ export const StyledItemGroup = styled.div`
 
     @media (min-width: 1025px) {
       flex: 0 0 calc(25% - 10px);
-      img {
+      .carousel-image {
         width: 95%;
         height: 425px;
       }
