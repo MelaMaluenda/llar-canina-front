@@ -5,12 +5,14 @@ import ServicesPage from "../../pages/ServicesPage/ServicesPage";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import { Route, Routes, Navigate } from "react-router-dom";
+import ScrollToTop from "../../utils/scrollToTopFunction/scrollToTopFunction";
 
 const App = (): React.ReactElement => {
   return (
     <>
       <Header />
       <main>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<HomePage />} />
