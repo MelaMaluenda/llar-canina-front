@@ -282,5 +282,4 @@ const UsStyled = styled.section`
     }
   }
 `;
-
 export default UsStyled;
