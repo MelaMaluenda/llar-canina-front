@@ -6,6 +6,9 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import { Route, Routes, Navigate } from "react-router-dom";
 import ScrollToTop from "../../utils/scrollToTopFunction/scrollToTopFunction";
+import Cookies from "../../utils/Cookies/Cookies";
+import TermsAndConditions from "../../pages/TermsAndConditions/TermsAndConditions";
+import CookiesPolicy from "../../pages/CookiesPolicy/CookiesPolicy";
 
 const App = (): React.ReactElement => {
   return (
@@ -19,9 +22,12 @@ const App = (): React.ReactElement => {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/rates" element={<RatesPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/cookies" element={<CookiesPolicy />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
         </Routes>
       </main>
       <Footer />
+      <Cookies />
     </>
   );
 };
