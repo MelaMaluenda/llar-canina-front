@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import ReservationFormStyled from "./ReservationFormStyled";
+import { Link } from "react-router-dom";
 
 const ReservationForm: React.FC = () => {
   const { t } = useTranslation();
@@ -22,14 +23,19 @@ const ReservationForm: React.FC = () => {
 
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isChecked, setIsChecked] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<
-      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >,
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
-    const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setIsChecked(event.target.checked);
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -54,7 +60,7 @@ const ReservationForm: React.FC = () => {
     };
 
     try {
-      const response = await fetch("https://formspree.io/f/mwpebepr", {
+      const response = await fetch("https://formspree.io/f/xldrnrgr", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -81,6 +87,11 @@ const ReservationForm: React.FC = () => {
         <p className="reservation-form__description">
           {t("form.reservationDescription")}
         </p>
+        {!submitted && (
+          <p className="reservation-form__description">
+            {t("form.reservationDescription")}
+          </p>
+        )}
         {submitted ? (
           <p className="reservation-form__confirmation">
             {t("form.successMessage")}
@@ -339,6 +350,7 @@ const ReservationForm: React.FC = () => {
                 {t("form.aboutDog")}
               </label>
               <textarea
+                placeholder={t("form.aboutDogPlaceholder")}
                 className="reservation-form__textarea"
                 id="acercaDelPerro"
                 name="acercaDelPerro"
@@ -346,8 +358,30 @@ const ReservationForm: React.FC = () => {
                 onChange={handleChange}
               />
             </div>
+            <div className="reservation-form__checkbox-group">
+              <input
+                type="checkbox"
+                id="terms"
+                className="reservation-form__checkbox"
+                checked={isChecked}
+                onChange={handleCheckboxChange}
+              />
+              <label
+                htmlFor="terms"
+                className="reservation-form__checkbox-label"
+              >
+                {t("form.terms1")}{" "}
+                <Link to="/terms" target="_blank" className="terms__link">
+                  {t("form.terms2")}
+                </Link>
+              </label>
+            </div>
 
-            <button className="reservation-form__button" type="submit">
+            <button
+              className="reservation-form__button"
+              type="submit"
+              disabled={!isChecked}
+            >
               {t("form.submit")}
             </button>
           </form>

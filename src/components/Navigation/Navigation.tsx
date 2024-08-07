@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const languages = [
   { code: "cat", lang: "CAT" },
-  { code: "es", lang: "ES" },
+  { code: "es", lang: "ESP" },
 ];
 
 const Navigation = (): React.ReactElement => {
@@ -82,7 +82,7 @@ const Navigation = (): React.ReactElement => {
               className="menu__languages--i"
               onClick={() => changeLanguage(lng.code)}
             >
-              {lng.lang}
+              {lng.code === "cat" ? t("navigation.cat") : t("navigation.es")}
             </button>
           ))}
         </div>
